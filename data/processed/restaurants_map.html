@@ -1,0 +1,5477 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e5486d75f231db24b9a52b7a033da033 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e5486d75f231db24b9a52b7a033da033" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e5486d75f231db24b9a52b7a033da033 = L.map(
+                "map_e5486d75f231db24b9a52b7a033da033",
+                {
+                    center: [56.0465, 12.6945],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_32aa6663aa7f9d6f872d863d87c44ec1 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_32aa6663aa7f9d6f872d863d87c44ec1.addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+            var marker_083ba543686088b1c1d8bdc9e63e6012 = L.marker(
+                [56.0473798, 12.6954643],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_76222ec2e0dd00b98b817198bc7f4ba8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8629a2d873c224d7edd0e145069b20f8 = $(`<div id="html_8629a2d873c224d7edd0e145069b20f8" style="width: 100.0%; height: 100.0%;">         <b>Amore Fantasia</b><br>         Norra Storgatan 1         </div>`)[0];
+                popup_76222ec2e0dd00b98b817198bc7f4ba8.setContent(html_8629a2d873c224d7edd0e145069b20f8);
+            
+        
+
+        marker_083ba543686088b1c1d8bdc9e63e6012.bindPopup(popup_76222ec2e0dd00b98b817198bc7f4ba8)
+        ;
+
+        
+    
+    
+            var marker_09e9e0ce4d5b81be78fffe36e8039038 = L.marker(
+                [56.0463458, 12.6951428],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_a5f6c40037e921f21dcf800b5623728e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_36acddc2f8a07ecd8d41460224e2d2a5 = $(`<div id="html_36acddc2f8a07ecd8d41460224e2d2a5" style="width: 100.0%; height: 100.0%;">         <b>Aroma Restaurang</b><br>         Norra Kyrkogatan 10         </div>`)[0];
+                popup_a5f6c40037e921f21dcf800b5623728e.setContent(html_36acddc2f8a07ecd8d41460224e2d2a5);
+            
+        
+
+        marker_09e9e0ce4d5b81be78fffe36e8039038.bindPopup(popup_a5f6c40037e921f21dcf800b5623728e)
+        ;
+
+        
+    
+    
+            var marker_311ee5b0ebf9aa6826aa4d3466562193 = L.marker(
+                [56.0419522, 12.6919723],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_d707aecc18c55e927e6fcd403fc1008b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f674b054ed6855c6bfea217ee4649fa4 = $(`<div id="html_f674b054ed6855c6bfea217ee4649fa4" style="width: 100.0%; height: 100.0%;">         <b>Backhaus Oceanhamnen</b><br>         Henckels Torg 4         </div>`)[0];
+                popup_d707aecc18c55e927e6fcd403fc1008b.setContent(html_f674b054ed6855c6bfea217ee4649fa4);
+            
+        
+
+        marker_311ee5b0ebf9aa6826aa4d3466562193.bindPopup(popup_d707aecc18c55e927e6fcd403fc1008b)
+        ;
+
+        
+    
+    
+            var marker_ccd66c2b896fb5a27adc83100425a4b9 = L.marker(
+                [56.0583527, 12.6821787],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_c148f4d3a1c17a66856012db82d2a4e2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4cf9527070ff62320d4a0b2df5098ae1 = $(`<div id="html_4cf9527070ff62320d4a0b2df5098ae1" style="width: 100.0%; height: 100.0%;">         <b>Badvakten</b><br>         Drottninggatan 95         </div>`)[0];
+                popup_c148f4d3a1c17a66856012db82d2a4e2.setContent(html_4cf9527070ff62320d4a0b2df5098ae1);
+            
+        
+
+        marker_ccd66c2b896fb5a27adc83100425a4b9.bindPopup(popup_c148f4d3a1c17a66856012db82d2a4e2)
+        ;
+
+        
+    
+    
+            var marker_8fce3116505e2eab8c282483fee0f751 = L.marker(
+                [56.0439023, 12.6970813],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_79304436e623ee7eeaa4d03f6aac2965 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0c21f90884e6e7e04db0bc0413e8c79e = $(`<div id="html_0c21f90884e6e7e04db0bc0413e8c79e" style="width: 100.0%; height: 100.0%;">         <b>Banh Mi King (city)</b><br>         Bruksgatan 34         </div>`)[0];
+                popup_79304436e623ee7eeaa4d03f6aac2965.setContent(html_0c21f90884e6e7e04db0bc0413e8c79e);
+            
+        
+
+        marker_8fce3116505e2eab8c282483fee0f751.bindPopup(popup_79304436e623ee7eeaa4d03f6aac2965)
+        ;
+
+        
+    
+    
+            var marker_8934783d8533a9df65e740c15aa4e4ff = L.marker(
+                [56.045351, 12.6942831],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_64e4aba8ee8b482cd652537138ae5e67 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b7bee5330881e9234484e2d8d6c3aab4 = $(`<div id="html_b7bee5330881e9234484e2d8d6c3aab4" style="width: 100.0%; height: 100.0%;">         <b>Bankpalatset</b><br>         Järnvägsgatan 7         </div>`)[0];
+                popup_64e4aba8ee8b482cd652537138ae5e67.setContent(html_b7bee5330881e9234484e2d8d6c3aab4);
+            
+        
+
+        marker_8934783d8533a9df65e740c15aa4e4ff.bindPopup(popup_64e4aba8ee8b482cd652537138ae5e67)
+        ;
+
+        
+    
+    
+            var marker_8b6e4e1faddc3b2c4556bd22fa5ad621 = L.marker(
+                [56.0493837, 12.6889783],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_c7963edf0ee9c66dd6bcad9e7b2ed4fb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_03d59411bbf3d2f6631cab127292b834 = $(`<div id="html_03d59411bbf3d2f6631cab127292b834" style="width: 100.0%; height: 100.0%;">         <b>Bar & Café Markelius Konserthuset</b><br>         Roskildegatan 1         </div>`)[0];
+                popup_c7963edf0ee9c66dd6bcad9e7b2ed4fb.setContent(html_03d59411bbf3d2f6631cab127292b834);
+            
+        
+
+        marker_8b6e4e1faddc3b2c4556bd22fa5ad621.bindPopup(popup_c7963edf0ee9c66dd6bcad9e7b2ed4fb)
+        ;
+
+        
+    
+    
+            var marker_68c2ab719a354b9bba4b2e7ab33e2921 = L.marker(
+                [56.0493137, 12.6938233],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_2189182e61339c868302ac504cd0b488 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_479c601eec34419fe6fc18526319b97d = $(`<div id="html_479c601eec34419fe6fc18526319b97d" style="width: 100.0%; height: 100.0%;">         <b>Bara Vara</b><br>         Fågelsångsgatan 2         </div>`)[0];
+                popup_2189182e61339c868302ac504cd0b488.setContent(html_479c601eec34419fe6fc18526319b97d);
+            
+        
+
+        marker_68c2ab719a354b9bba4b2e7ab33e2921.bindPopup(popup_2189182e61339c868302ac504cd0b488)
+        ;
+
+        
+    
+    
+            var marker_b61527e0d2f2ef62e4fc288199ddfdb1 = L.marker(
+                [56.0484558, 12.694059],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_2a404f9217714979f0702cab57c43495 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f8999a2184b0c249dbde846d62d4f7c6 = $(`<div id="html_f8999a2184b0c249dbde846d62d4f7c6" style="width: 100.0%; height: 100.0%;">         <b>Barski</b><br>         Norra Storgatan 16         </div>`)[0];
+                popup_2a404f9217714979f0702cab57c43495.setContent(html_f8999a2184b0c249dbde846d62d4f7c6);
+            
+        
+
+        marker_b61527e0d2f2ef62e4fc288199ddfdb1.bindPopup(popup_2a404f9217714979f0702cab57c43495)
+        ;
+
+        
+    
+    
+            var marker_3d2b3ec71201ea58b4a00486622fdaf9 = L.marker(
+                [56.0407438, 12.7013723],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_1081002399f22c979ad49df11dca2f6a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7b82a8de28b68f1159fe97bcff1cec69 = $(`<div id="html_7b82a8de28b68f1159fe97bcff1cec69" style="width: 100.0%; height: 100.0%;">         <b>Bastard Burgers</b><br>         Södergatan 30         </div>`)[0];
+                popup_1081002399f22c979ad49df11dca2f6a.setContent(html_7b82a8de28b68f1159fe97bcff1cec69);
+            
+        
+
+        marker_3d2b3ec71201ea58b4a00486622fdaf9.bindPopup(popup_1081002399f22c979ad49df11dca2f6a)
+        ;
+
+        
+    
+    
+            var marker_999fd3eeb61855f95b870618541fc932 = L.marker(
+                [56.0463841, 12.6953185],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_492abff88fc0de4d7813700c8296de78 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c80c5730d0ce8e7e04fc19fc80ea95d1 = $(`<div id="html_c80c5730d0ce8e7e04fc19fc80ea95d1" style="width: 100.0%; height: 100.0%;">         <b>Bastard Burgers Helsingborg City</b><br>         Norra Kyrkogatan 12         </div>`)[0];
+                popup_492abff88fc0de4d7813700c8296de78.setContent(html_c80c5730d0ce8e7e04fc19fc80ea95d1);
+            
+        
+
+        marker_999fd3eeb61855f95b870618541fc932.bindPopup(popup_492abff88fc0de4d7813700c8296de78)
+        ;
+
+        
+    
+    
+            var marker_790242f5a09970c39e888595952f3cbc = L.marker(
+                [55.9965228, 12.7400982],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_73235caeffaf293ce5544f05c5cb1162 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4326c65b9d607cc031d7244f63bc5a0c = $(`<div id="html_4326c65b9d607cc031d7244f63bc5a0c" style="width: 100.0%; height: 100.0%;">         <b>Batteritorget kök pub glass</b><br>         Batteritorget 1         </div>`)[0];
+                popup_73235caeffaf293ce5544f05c5cb1162.setContent(html_4326c65b9d607cc031d7244f63bc5a0c);
+            
+        
+
+        marker_790242f5a09970c39e888595952f3cbc.bindPopup(popup_73235caeffaf293ce5544f05c5cb1162)
+        ;
+
+        
+    
+    
+            var marker_71b74bf195892757247a7a75cc4b8413 = L.marker(
+                [56.0078318, 12.7256312],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_9a19ed564fc2e8338b292fcf5a8ef588 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_582bcfab90958c32ed71ef5bac30606e = $(`<div id="html_582bcfab90958c32ed71ef5bac30606e" style="width: 100.0%; height: 100.0%;">         <b>Benchwarmers Brewing Co</b><br>         Industrigatan 121         </div>`)[0];
+                popup_9a19ed564fc2e8338b292fcf5a8ef588.setContent(html_582bcfab90958c32ed71ef5bac30606e);
+            
+        
+
+        marker_71b74bf195892757247a7a75cc4b8413.bindPopup(popup_9a19ed564fc2e8338b292fcf5a8ef588)
+        ;
+
+        
+    
+    
+            var marker_31166f1e81746f0ba7451560947fee7b = L.marker(
+                [56.0464064, 12.6890168],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_3390dbfe0414441b9858a7a6307a34bf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6302c864109cdb2c139988b33ff22c6b = $(`<div id="html_6302c864109cdb2c139988b33ff22c6b" style="width: 100.0%; height: 100.0%;">         <b>Benchwarmers Taproom</b><br>         Helsingörskajen 2         </div>`)[0];
+                popup_3390dbfe0414441b9858a7a6307a34bf.setContent(html_6302c864109cdb2c139988b33ff22c6b);
+            
+        
+
+        marker_31166f1e81746f0ba7451560947fee7b.bindPopup(popup_3390dbfe0414441b9858a7a6307a34bf)
+        ;
+
+        
+    
+    
+            var marker_1e1a40074744f288dc85a33285c39ad8 = L.marker(
+                [56.041841, 12.6906361],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_99dd70345be5f1d8b91f14728707552a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_08127c281a437ed394868b3dbc9705b3 = $(`<div id="html_08127c281a437ed394868b3dbc9705b3" style="width: 100.0%; height: 100.0%;">         <b>Benchwarmers Taproom Oceanhamnen</b><br>         Vågbrytargränd 2         </div>`)[0];
+                popup_99dd70345be5f1d8b91f14728707552a.setContent(html_08127c281a437ed394868b3dbc9705b3);
+            
+        
+
+        marker_1e1a40074744f288dc85a33285c39ad8.bindPopup(popup_99dd70345be5f1d8b91f14728707552a)
+        ;
+
+        
+    
+    
+            var marker_ebfebdcefecb0ee570ba8f9a84733eab = L.marker(
+                [56.0488419, 12.6912648],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_4d9b921adf26501d25a44c59322548e8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0484d5e92c25bc3f6bcf772cc0cb7068 = $(`<div id="html_0484d5e92c25bc3f6bcf772cc0cb7068" style="width: 100.0%; height: 100.0%;">         <b>Big Buddha</b><br>         Ålgränden 1         </div>`)[0];
+                popup_4d9b921adf26501d25a44c59322548e8.setContent(html_0484d5e92c25bc3f6bcf772cc0cb7068);
+            
+        
+
+        marker_ebfebdcefecb0ee570ba8f9a84733eab.bindPopup(popup_4d9b921adf26501d25a44c59322548e8)
+        ;
+
+        
+    
+    
+            var marker_15af06a8f4944470669f5ceba2fe3ba7 = L.marker(
+                [56.045972, 12.6959438],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_f45df6525d1d73e5c929a741dc13b34a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fda4fe1da28401359ce61adfa9600690 = $(`<div id="html_fda4fe1da28401359ce61adfa9600690" style="width: 100.0%; height: 100.0%;">         <b>Bikten</b><br>         Mariagatan 10         </div>`)[0];
+                popup_f45df6525d1d73e5c929a741dc13b34a.setContent(html_fda4fe1da28401359ce61adfa9600690);
+            
+        
+
+        marker_15af06a8f4944470669f5ceba2fe3ba7.bindPopup(popup_f45df6525d1d73e5c929a741dc13b34a)
+        ;
+
+        
+    
+    
+            var marker_1eda1aef8ad5419a3007f33bc38b9aab = L.marker(
+                [56.0005698, 12.7387284],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_c6d6956fde38d4935629e156fe29c010 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_83dfc7b0dabe69eb4fa6c3962f9abf8f = $(`<div id="html_83dfc7b0dabe69eb4fa6c3962f9abf8f" style="width: 100.0%; height: 100.0%;">         <b>Bistro 46</b><br>         Rååvägen 46         </div>`)[0];
+                popup_c6d6956fde38d4935629e156fe29c010.setContent(html_83dfc7b0dabe69eb4fa6c3962f9abf8f);
+            
+        
+
+        marker_1eda1aef8ad5419a3007f33bc38b9aab.bindPopup(popup_c6d6956fde38d4935629e156fe29c010)
+        ;
+
+        
+    
+    
+            var marker_a60e2c38bf6a86908739c609a3f25ef7 = L.marker(
+                [56.0024953, 12.7321248],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_812919f53df81cf3bdb6e0bed50f53db = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e31f0a8247925781366e6b790694f5f3 = $(`<div id="html_e31f0a8247925781366e6b790694f5f3" style="width: 100.0%; height: 100.0%;">         <b>Bistråå Strandkrog</b><br>         Kustgatan 94         </div>`)[0];
+                popup_812919f53df81cf3bdb6e0bed50f53db.setContent(html_e31f0a8247925781366e6b790694f5f3);
+            
+        
+
+        marker_a60e2c38bf6a86908739c609a3f25ef7.bindPopup(popup_812919f53df81cf3bdb6e0bed50f53db)
+        ;
+
+        
+    
+    
+            var marker_65986b09fc5b7eb2a9dfc8c5c0ec22e3 = L.marker(
+                [56.0632637, 12.7174833],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_4a61e3f88afefb2afa57df5692b9adb0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_13039e41fb66eeb9088d0347beb16d48 = $(`<div id="html_13039e41fb66eeb9088d0347beb16d48" style="width: 100.0%; height: 100.0%;">         <b>Black Smith Burger</b><br>         Regementsvägen 4         </div>`)[0];
+                popup_4a61e3f88afefb2afa57df5692b9adb0.setContent(html_13039e41fb66eeb9088d0347beb16d48);
+            
+        
+
+        marker_65986b09fc5b7eb2a9dfc8c5c0ec22e3.bindPopup(popup_4a61e3f88afefb2afa57df5692b9adb0)
+        ;
+
+        
+    
+    
+            var marker_16d0dd374ebb8d471b5e89f73a4a5787 = L.marker(
+                [56.0916312, 12.7575316],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_57735c621f0a815a789e65521d522f19 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a9f6650f0f4f3231f099933b06958318 = $(`<div id="html_a9f6650f0f4f3231f099933b06958318" style="width: 100.0%; height: 100.0%;">         <b>Blå Tuppen</b><br>         Väla Centrum         </div>`)[0];
+                popup_57735c621f0a815a789e65521d522f19.setContent(html_a9f6650f0f4f3231f099933b06958318);
+            
+        
+
+        marker_16d0dd374ebb8d471b5e89f73a4a5787.bindPopup(popup_57735c621f0a815a789e65521d522f19)
+        ;
+
+        
+    
+    
+            var marker_71a2453882a872acf7535daba22be50a = L.marker(
+                [56.0418557, 12.6995472],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_406039a9d1d9d865eac581cd50e1c261 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8ce9a92fda01ccf419a141ba85f4af0d = $(`<div id="html_8ce9a92fda01ccf419a141ba85f4af0d" style="width: 100.0%; height: 100.0%;">         <b>Bollbrolyckan</b><br>         Bollbrogatan 4 - 6         </div>`)[0];
+                popup_406039a9d1d9d865eac581cd50e1c261.setContent(html_8ce9a92fda01ccf419a141ba85f4af0d);
+            
+        
+
+        marker_71a2453882a872acf7535daba22be50a.bindPopup(popup_406039a9d1d9d865eac581cd50e1c261)
+        ;
+
+        
+    
+    
+            var marker_b85d4ebf476c8f7df41d4b2ec7c3f0cc = L.marker(
+                [56.0489268, 12.6896722],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_df1884a68ea0fb8c6087647804c14118 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e345395a709f86eca8842b208618108c = $(`<div id="html_e345395a709f86eca8842b208618108c" style="width: 100.0%; height: 100.0%;">         <b>Bosco</b><br>         Drottninggatan 15         </div>`)[0];
+                popup_df1884a68ea0fb8c6087647804c14118.setContent(html_e345395a709f86eca8842b208618108c);
+            
+        
+
+        marker_b85d4ebf476c8f7df41d4b2ec7c3f0cc.bindPopup(popup_df1884a68ea0fb8c6087647804c14118)
+        ;
+
+        
+    
+    
+            var marker_1449b08c33f1450cd5004c0c8bfec89e = L.marker(
+                [56.0446367, 12.6968708],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_a06936a7a96ac7528dde0c777db92291 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_64e2e76f94d2651a8512876cc11951a9 = $(`<div id="html_64e2e76f94d2651a8512876cc11951a9" style="width: 100.0%; height: 100.0%;">         <b>Brasserie Le Coq Rouge</b><br>         Bruksgatan 19         </div>`)[0];
+                popup_a06936a7a96ac7528dde0c777db92291.setContent(html_64e2e76f94d2651a8512876cc11951a9);
+            
+        
+
+        marker_1449b08c33f1450cd5004c0c8bfec89e.bindPopup(popup_a06936a7a96ac7528dde0c777db92291)
+        ;
+
+        
+    
+    
+            var marker_d62a9202e8184eb01a99f39334bffe30 = L.marker(
+                [56.0424592, 12.6908063],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_a5bdd43c6f871874bf7cdf4560770bf5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3bd2253b2a92bfc66835a058db6cd347 = $(`<div id="html_3bd2253b2a92bfc66835a058db6cd347" style="width: 100.0%; height: 100.0%;">         <b>Brasseriet</b><br>         Redaregatan 50         </div>`)[0];
+                popup_a5bdd43c6f871874bf7cdf4560770bf5.setContent(html_3bd2253b2a92bfc66835a058db6cd347);
+            
+        
+
+        marker_d62a9202e8184eb01a99f39334bffe30.bindPopup(popup_a5bdd43c6f871874bf7cdf4560770bf5)
+        ;
+
+        
+    
+    
+            var marker_2dcd80e41965c1cb905af5c8dbab08b3 = L.marker(
+                [56.0332491, 12.7050933],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_14ace0a0ce01ed8c47af336d005b2b14 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6102bc179e96add31035d0b10e5b4959 = $(`<div id="html_6102bc179e96add31035d0b10e5b4959" style="width: 100.0%; height: 100.0%;">         <b>Brewski Brew</b><br>         Cindersgatan 8         </div>`)[0];
+                popup_14ace0a0ce01ed8c47af336d005b2b14.setContent(html_6102bc179e96add31035d0b10e5b4959);
+            
+        
+
+        marker_2dcd80e41965c1cb905af5c8dbab08b3.bindPopup(popup_14ace0a0ce01ed8c47af336d005b2b14)
+        ;
+
+        
+    
+    
+            var marker_be459344cd42f194640737cff247bd8f = L.marker(
+                [56.0473605, 12.6920651],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_3df885fee79915adba0fa85d8236a38b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ec0ccc1e39fdc6787050ecfcc193f32c = $(`<div id="html_ec0ccc1e39fdc6787050ecfcc193f32c" style="width: 100.0%; height: 100.0%;">         <b>Brunchoteket</b><br>         Drottninggatan 14         </div>`)[0];
+                popup_3df885fee79915adba0fa85d8236a38b.setContent(html_ec0ccc1e39fdc6787050ecfcc193f32c);
+            
+        
+
+        marker_be459344cd42f194640737cff247bd8f.bindPopup(popup_3df885fee79915adba0fa85d8236a38b)
+        ;
+
+        
+    
+    
+            var marker_ff090046bc6ee8902528699eb6faf7c0 = L.marker(
+                [56.0473753, 12.6916051],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_64750279ef831932c61e1571e876a434 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fe82b3e72293d9565f7cf2acdce25531 = $(`<div id="html_fe82b3e72293d9565f7cf2acdce25531" style="width: 100.0%; height: 100.0%;">         <b>Brutale</b><br>         Drottninggatan 20-22         </div>`)[0];
+                popup_64750279ef831932c61e1571e876a434.setContent(html_fe82b3e72293d9565f7cf2acdce25531);
+            
+        
+
+        marker_ff090046bc6ee8902528699eb6faf7c0.bindPopup(popup_64750279ef831932c61e1571e876a434)
+        ;
+
+        
+    
+    
+            var marker_f5d974268056035ceb315afb11a154b6 = L.marker(
+                [56.0442787, 12.6944725],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_0eecc8f407958d069a9b5d78b596464c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a559d04acf8bb661419bca715ae48261 = $(`<div id="html_a559d04acf8bb661419bca715ae48261" style="width: 100.0%; height: 100.0%;">         <b>Brödernas Helsingborg Central</b><br>         Kungstorget 8         </div>`)[0];
+                popup_0eecc8f407958d069a9b5d78b596464c.setContent(html_a559d04acf8bb661419bca715ae48261);
+            
+        
+
+        marker_f5d974268056035ceb315afb11a154b6.bindPopup(popup_0eecc8f407958d069a9b5d78b596464c)
+        ;
+
+        
+    
+    
+            var marker_f2397e6683e19ecc8b29dc3768d6a255 = L.marker(
+                [56.0475732, 12.6941246],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_d48f716db971866f65b34e1bd33d4fe5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_57c73847e13da5b921b20b21a07b5fbb = $(`<div id="html_57c73847e13da5b921b20b21a07b5fbb" style="width: 100.0%; height: 100.0%;">         <b>Bullangeriet Fikabar</b><br>         Kullagatan 8         </div>`)[0];
+                popup_d48f716db971866f65b34e1bd33d4fe5.setContent(html_57c73847e13da5b921b20b21a07b5fbb);
+            
+        
+
+        marker_f2397e6683e19ecc8b29dc3768d6a255.bindPopup(popup_d48f716db971866f65b34e1bd33d4fe5)
+        ;
+
+        
+    
+    
+            var marker_f220b75af0ba260f2965edbf30e65290 = L.marker(
+                [56.0483804, 12.6919246],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_eb91be59e2183e0c8cc9f7e24349cb78 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8ed6832fec472c1d3f76a99ac4fca1b0 = $(`<div id="html_8ed6832fec472c1d3f76a99ac4fca1b0" style="width: 100.0%; height: 100.0%;">         <b>Bulls Biljard</b><br>         Norra Strandgatan 32         </div>`)[0];
+                popup_eb91be59e2183e0c8cc9f7e24349cb78.setContent(html_8ed6832fec472c1d3f76a99ac4fca1b0);
+            
+        
+
+        marker_f220b75af0ba260f2965edbf30e65290.bindPopup(popup_eb91be59e2183e0c8cc9f7e24349cb78)
+        ;
+
+        
+    
+    
+            var marker_37cb35d73e466bed295123f1fbd56bc3 = L.marker(
+                [56.0809982, 12.7052243],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_d97e8fdb6afbc2048d20ae372073e7e1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d27a87ddc1019489aa745c701c46c97c = $(`<div id="html_d27a87ddc1019489aa745c701c46c97c" style="width: 100.0%; height: 100.0%;">         <b>Bågen Mat & Bar i Maria Park</b><br>         Grepgatan 38         </div>`)[0];
+                popup_d97e8fdb6afbc2048d20ae372073e7e1.setContent(html_d27a87ddc1019489aa745c701c46c97c);
+            
+        
+
+        marker_37cb35d73e466bed295123f1fbd56bc3.bindPopup(popup_d97e8fdb6afbc2048d20ae372073e7e1)
+        ;
+
+        
+    
+    
+            var marker_57d6fb6b13dbf371281c483f9de2d45d = L.marker(
+                [56.0464751, 12.6897052],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_25529806b6a1453be64e51945458d96d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a53c734d1f7c885123d02ea75dbb0af6 = $(`<div id="html_a53c734d1f7c885123d02ea75dbb0af6" style="width: 100.0%; height: 100.0%;">         <b>Båten Restaurang & Bar</b><br>         Helsingörskajen 102         </div>`)[0];
+                popup_25529806b6a1453be64e51945458d96d.setContent(html_a53c734d1f7c885123d02ea75dbb0af6);
+            
+        
+
+        marker_57d6fb6b13dbf371281c483f9de2d45d.bindPopup(popup_25529806b6a1453be64e51945458d96d)
+        ;
+
+        
+    
+    
+            var marker_11272b9988d71986b0b1e7a69d5e29ac = L.marker(
+                [55.9684354, 12.7588993],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_1accef6162eed0e7bec8ee0bbc7095f6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f8172a236d91fb178b353149b2095715 = $(`<div id="html_f8172a236d91fb178b353149b2095715" style="width: 100.0%; height: 100.0%;">         <b>Café & Restaurang Tegel</b><br>         Ytterövägen 167         </div>`)[0];
+                popup_1accef6162eed0e7bec8ee0bbc7095f6.setContent(html_f8172a236d91fb178b353149b2095715);
+            
+        
+
+        marker_11272b9988d71986b0b1e7a69d5e29ac.bindPopup(popup_1accef6162eed0e7bec8ee0bbc7095f6)
+        ;
+
+        
+    
+    
+            var marker_1046bdeb8c97d23e9f9f921a336fab5a = L.marker(
+                [56.0482727, 12.691432],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_a773a5f1383929500fe63557a97fa810 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e3ed9c469d9cd650f105b1655f57b1f3 = $(`<div id="html_e3ed9c469d9cd650f105b1655f57b1f3" style="width: 100.0%; height: 100.0%;">         <b>Café 1886 AB</b><br>         Drottninggatan 30         </div>`)[0];
+                popup_a773a5f1383929500fe63557a97fa810.setContent(html_e3ed9c469d9cd650f105b1655f57b1f3);
+            
+        
+
+        marker_1046bdeb8c97d23e9f9f921a336fab5a.bindPopup(popup_a773a5f1383929500fe63557a97fa810)
+        ;
+
+        
+    
+    
+            var marker_5e3e8b53d4915883b8a7a0d4cbc105f8 = L.marker(
+                [56.046414, 12.6955043],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_f9a323a5e40c3930a2d75c7222c0db4b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a8b9a98be01ae54ff2a6753d5e9f4d6f = $(`<div id="html_a8b9a98be01ae54ff2a6753d5e9f4d6f" style="width: 100.0%; height: 100.0%;">         <b>Café Due</b><br>         Mariagatan 2         </div>`)[0];
+                popup_f9a323a5e40c3930a2d75c7222c0db4b.setContent(html_a8b9a98be01ae54ff2a6753d5e9f4d6f);
+            
+        
+
+        marker_5e3e8b53d4915883b8a7a0d4cbc105f8.bindPopup(popup_f9a323a5e40c3930a2d75c7222c0db4b)
+        ;
+
+        
+    
+    
+            var marker_7351fb1cfbc435d8289c2bcc75a9a7d5 = L.marker(
+                [56.0514257, 12.6878103],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_2a90ccf968bb14bd12572e00e6d96146 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_da18f4d11a6737c1cfaeab50dd1ddd97 = $(`<div id="html_da18f4d11a6737c1cfaeab50dd1ddd97" style="width: 100.0%; height: 100.0%;">         <b>Cafe Etoile</b><br>         Drottninggatan 27         </div>`)[0];
+                popup_2a90ccf968bb14bd12572e00e6d96146.setContent(html_da18f4d11a6737c1cfaeab50dd1ddd97);
+            
+        
+
+        marker_7351fb1cfbc435d8289c2bcc75a9a7d5.bindPopup(popup_2a90ccf968bb14bd12572e00e6d96146)
+        ;
+
+        
+    
+    
+            var marker_898089dd60d4e2d1f0301f0c41651913 = L.marker(
+                [56.0476267, 12.6889117],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_1ffa830c41d711c5b200fe85095dfd3a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ab1342030c995590acf01d3ecebac06f = $(`<div id="html_ab1342030c995590acf01d3ecebac06f" style="width: 100.0%; height: 100.0%;">         <b>Café Henry</b><br>         Kungsgatan 11         </div>`)[0];
+                popup_1ffa830c41d711c5b200fe85095dfd3a.setContent(html_ab1342030c995590acf01d3ecebac06f);
+            
+        
+
+        marker_898089dd60d4e2d1f0301f0c41651913.bindPopup(popup_1ffa830c41d711c5b200fe85095dfd3a)
+        ;
+
+        
+    
+    
+            var marker_ae5cc7460c55d79962a9cc44cedbce14 = L.marker(
+                [56.046926, 12.6963894],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_0fb5fedcff6a5f3733939bbdfb66f386 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_52af761a3c83b8746097944343b14202 = $(`<div id="html_52af761a3c83b8746097944343b14202" style="width: 100.0%; height: 100.0%;">         <b>Café Mezo/Firavîn</b><br>         Södra Storgatan 3         </div>`)[0];
+                popup_0fb5fedcff6a5f3733939bbdfb66f386.setContent(html_52af761a3c83b8746097944343b14202);
+            
+        
+
+        marker_ae5cc7460c55d79962a9cc44cedbce14.bindPopup(popup_0fb5fedcff6a5f3733939bbdfb66f386)
+        ;
+
+        
+    
+    
+            var marker_f73f35b708b3c8f71ecbacf23fe4bb70 = L.marker(
+                [56.0447095, 12.6999359],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_c5c4bb8b31fc982ddbc0d271ccff9dcd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_947daadd7ba957c0945b7562fa284fee = $(`<div id="html_947daadd7ba957c0945b7562fa284fee" style="width: 100.0%; height: 100.0%;">         <b>Café Ray</b><br>         Södra Storgatan 39 A         </div>`)[0];
+                popup_c5c4bb8b31fc982ddbc0d271ccff9dcd.setContent(html_947daadd7ba957c0945b7562fa284fee);
+            
+        
+
+        marker_f73f35b708b3c8f71ecbacf23fe4bb70.bindPopup(popup_c5c4bb8b31fc982ddbc0d271ccff9dcd)
+        ;
+
+        
+    
+    
+            var marker_9ef7ee4d5501a034cf9d5b6bc5c033d2 = L.marker(
+                [56.0461048, 12.6974191],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_dd858b50050df37f6b1350d68f2ff6e5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_280889117834b4332a77b3e3c3d476ce = $(`<div id="html_280889117834b4332a77b3e3c3d476ce" style="width: 100.0%; height: 100.0%;">         <b>Cafe Viva</b><br>         Södra Storgatan 6         </div>`)[0];
+                popup_dd858b50050df37f6b1350d68f2ff6e5.setContent(html_280889117834b4332a77b3e3c3d476ce);
+            
+        
+
+        marker_9ef7ee4d5501a034cf9d5b6bc5c033d2.bindPopup(popup_dd858b50050df37f6b1350d68f2ff6e5)
+        ;
+
+        
+    
+    
+            var marker_3e09f0082b1b2089b454a64f30ee72be = L.marker(
+                [56.0442787, 12.6944725],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_c2b82250316d1f9bc6975550f633d216 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_59b5561b2522ca6a6fad6bbae6ae4d8f = $(`<div id="html_59b5561b2522ca6a6fad6bbae6ae4d8f" style="width: 100.0%; height: 100.0%;">         <b>Centralen</b><br>         Kungstorget 8         </div>`)[0];
+                popup_c2b82250316d1f9bc6975550f633d216.setContent(html_59b5561b2522ca6a6fad6bbae6ae4d8f);
+            
+        
+
+        marker_3e09f0082b1b2089b454a64f30ee72be.bindPopup(popup_c2b82250316d1f9bc6975550f633d216)
+        ;
+
+        
+    
+    
+            var marker_5e7e2163fc2c1bf7b38eae63d24ef7c0 = L.marker(
+                [56.0459091, 12.698658],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_9cb523dab8509f3f80f206f73eed9b4d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_26af4b7009227f5fcd7c59b225c54750 = $(`<div id="html_26af4b7009227f5fcd7c59b225c54750" style="width: 100.0%; height: 100.0%;">         <b>Chateau Foret</b><br>         Södra Storgatan 19         </div>`)[0];
+                popup_9cb523dab8509f3f80f206f73eed9b4d.setContent(html_26af4b7009227f5fcd7c59b225c54750);
+            
+        
+
+        marker_5e7e2163fc2c1bf7b38eae63d24ef7c0.bindPopup(popup_9cb523dab8509f3f80f206f73eed9b4d)
+        ;
+
+        
+    
+    
+            var marker_72cbc2d803f109b0c6bb6d8795f6490d = L.marker(
+                [56.05738, 12.7013185],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_1682105d34996b6256b1c1d06f0fc6c0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c5238b7a6506b3848eeb3e1d11023adf = $(`<div id="html_c5238b7a6506b3848eeb3e1d11023adf" style="width: 100.0%; height: 100.0%;">         <b>Chattanoga</b><br>         Stattena Centrum         </div>`)[0];
+                popup_1682105d34996b6256b1c1d06f0fc6c0.setContent(html_c5238b7a6506b3848eeb3e1d11023adf);
+            
+        
+
+        marker_72cbc2d803f109b0c6bb6d8795f6490d.bindPopup(popup_1682105d34996b6256b1c1d06f0fc6c0)
+        ;
+
+        
+    
+    
+            var marker_9e8c3209ec4e2876d7fd43833373d9c3 = L.marker(
+                [56.0438484, 12.6982532],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_e9c56ef8ecb1fd195cc0937cc8345b50 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_127d20f6e186bda6a1f5f5e116a435d0 = $(`<div id="html_127d20f6e186bda6a1f5f5e116a435d0" style="width: 100.0%; height: 100.0%;">         <b>Chiang Mai Thai Kitchen</b><br>         Bruksgatan 29         </div>`)[0];
+                popup_e9c56ef8ecb1fd195cc0937cc8345b50.setContent(html_127d20f6e186bda6a1f5f5e116a435d0);
+            
+        
+
+        marker_9e8c3209ec4e2876d7fd43833373d9c3.bindPopup(popup_e9c56ef8ecb1fd195cc0937cc8345b50)
+        ;
+
+        
+    
+    
+            var marker_a5704cb0f19d6f4d62af75079ad53a62 = L.marker(
+                [56.0444, 12.6929],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_b1caa86bb6d3da719bf6546ff5d6b37c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d948c140e63b53afdc4b85687100f747 = $(`<div id="html_d948c140e63b53afdc4b85687100f747" style="width: 100.0%; height: 100.0%;">         <b>Chili Mexican Grill</b><br>         Kungstorget/Järnvägsgatan 2         </div>`)[0];
+                popup_b1caa86bb6d3da719bf6546ff5d6b37c.setContent(html_d948c140e63b53afdc4b85687100f747);
+            
+        
+
+        marker_a5704cb0f19d6f4d62af75079ad53a62.bindPopup(popup_b1caa86bb6d3da719bf6546ff5d6b37c)
+        ;
+
+        
+    
+    
+            var marker_1cbd369f8e608ebf6c6a894037d161a3 = L.marker(
+                [56.0486282, 12.6898302],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_14af4c5da2ccd8e11ebb8507bed88924 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_70cc644bac9d41d821e2942d08b77826 = $(`<div id="html_70cc644bac9d41d821e2942d08b77826" style="width: 100.0%; height: 100.0%;">         <b>China Town</b><br>         Sundstorget 5         </div>`)[0];
+                popup_14af4c5da2ccd8e11ebb8507bed88924.setContent(html_70cc644bac9d41d821e2942d08b77826);
+            
+        
+
+        marker_1cbd369f8e608ebf6c6a894037d161a3.bindPopup(popup_14af4c5da2ccd8e11ebb8507bed88924)
+        ;
+
+        
+    
+    
+            var marker_4edd30ac4901368a48bed322718ae77d = L.marker(
+                [56.046121, 12.68985],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_3e015bdef217d14652484ea2de74f167 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_009722cf058dde1deab6924124a4016d = $(`<div id="html_009722cf058dde1deab6924124a4016d" style="width: 100.0%; height: 100.0%;">         <b>Clarion Hotel Sea U</b><br>         Kungsgatan 1         </div>`)[0];
+                popup_3e015bdef217d14652484ea2de74f167.setContent(html_009722cf058dde1deab6924124a4016d);
+            
+        
+
+        marker_4edd30ac4901368a48bed322718ae77d.bindPopup(popup_3e015bdef217d14652484ea2de74f167)
+        ;
+
+        
+    
+    
+            var marker_5ea218ab0e163789c49d6fbce86053b4 = L.marker(
+                [56.0454517, 12.69599],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_5b81ea5679fbfa913a1ac895c56d26b9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_39897481f3a5e1d6e24cc54af7df3537 = $(`<div id="html_39897481f3a5e1d6e24cc54af7df3537" style="width: 100.0%; height: 100.0%;">         <b>Curry Nam Nam</b><br>         Bruksgatan 10         </div>`)[0];
+                popup_5b81ea5679fbfa913a1ac895c56d26b9.setContent(html_39897481f3a5e1d6e24cc54af7df3537);
+            
+        
+
+        marker_5ea218ab0e163789c49d6fbce86053b4.bindPopup(popup_5b81ea5679fbfa913a1ac895c56d26b9)
+        ;
+
+        
+    
+    
+            var marker_afd7013c2fad5fbceb900642ceafbe22 = L.marker(
+                [56.0458926, 12.6962423],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_d7b9a8e8988a9bcaad886e14bc118ccd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_06f23a13e3f64d901668c8df55230d24 = $(`<div id="html_06f23a13e3f64d901668c8df55230d24" style="width: 100.0%; height: 100.0%;">         <b>Diné Burgers</b><br>         Södra Kyrkogatan 12         </div>`)[0];
+                popup_d7b9a8e8988a9bcaad886e14bc118ccd.setContent(html_06f23a13e3f64d901668c8df55230d24);
+            
+        
+
+        marker_afd7013c2fad5fbceb900642ceafbe22.bindPopup(popup_d7b9a8e8988a9bcaad886e14bc118ccd)
+        ;
+
+        
+    
+    
+            var marker_1c83ecdc11f365809d72d60548847579 = L.marker(
+                [56.0484374, 12.6894736],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_1114be8b32beefb49db3654ac14b0c82 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_70ebea5c7991a2ce5034643c924fce9a = $(`<div id="html_70ebea5c7991a2ce5034643c924fce9a" style="width: 100.0%; height: 100.0%;">         <b>Diplomat & Bar</b><br>         Sundstorget 3         </div>`)[0];
+                popup_1114be8b32beefb49db3654ac14b0c82.setContent(html_70ebea5c7991a2ce5034643c924fce9a);
+            
+        
+
+        marker_1c83ecdc11f365809d72d60548847579.bindPopup(popup_1114be8b32beefb49db3654ac14b0c82)
+        ;
+
+        
+    
+    
+            var marker_f67e7ccec4ddae00b5b77c3821832ab2 = L.marker(
+                [56.0522112, 12.686655],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_a5f64e6feebb0d18c1eaa654e8830708 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_859cf7454b8c7e51651bf43e2e9fee84 = $(`<div id="html_859cf7454b8c7e51651bf43e2e9fee84" style="width: 100.0%; height: 100.0%;">         <b>Drottninggatan 35</b><br>         Drottninggatan 35         </div>`)[0];
+                popup_a5f64e6feebb0d18c1eaa654e8830708.setContent(html_859cf7454b8c7e51651bf43e2e9fee84);
+            
+        
+
+        marker_f67e7ccec4ddae00b5b77c3821832ab2.bindPopup(popup_a5f64e6feebb0d18c1eaa654e8830708)
+        ;
+
+        
+    
+    
+            var marker_df37d20a176e21735b571e5eb5e500e4 = L.marker(
+                [56.044346, 12.6925982],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_2b931f35e71f0f825fb242c312447370 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f55eb7c213d51b019a7587d87e6bbdbb = $(`<div id="html_f55eb7c213d51b019a7587d87e6bbdbb" style="width: 100.0%; height: 100.0%;">         <b>Elite Hotel Marina Plaza</b><br>         Kungstorget 6         </div>`)[0];
+                popup_2b931f35e71f0f825fb242c312447370.setContent(html_f55eb7c213d51b019a7587d87e6bbdbb);
+            
+        
+
+        marker_df37d20a176e21735b571e5eb5e500e4.bindPopup(popup_2b931f35e71f0f825fb242c312447370)
+        ;
+
+        
+    
+    
+            var marker_9f07b21dc7434ab4af71f4b139462c07 = L.marker(
+                [56.0469692, 12.6957707],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_2dbd25f3885b1e2717d3b6af1a5f8366 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b1c9ba5fa6ab919ff39cead3f2dee981 = $(`<div id="html_b1c9ba5fa6ab919ff39cead3f2dee981" style="width: 100.0%; height: 100.0%;">         <b>Elite Hotel Mollberg</b><br>         Stortorget 18         </div>`)[0];
+                popup_2dbd25f3885b1e2717d3b6af1a5f8366.setContent(html_b1c9ba5fa6ab919ff39cead3f2dee981);
+            
+        
+
+        marker_9f07b21dc7434ab4af71f4b139462c07.bindPopup(popup_2dbd25f3885b1e2717d3b6af1a5f8366)
+        ;
+
+        
+    
+    
+            var marker_3d598615c88f36c4765b5536fcab384a = L.marker(
+                [56.0472252, 12.6900931],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_82969bc5b95a2c61d35334eb530802ad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_734cdcf6e98c653e963403b6d955a441 = $(`<div id="html_734cdcf6e98c653e963403b6d955a441" style="width: 100.0%; height: 100.0%;">         <b>Ett litet Makeri</b><br>         Kungsgatan 12         </div>`)[0];
+                popup_82969bc5b95a2c61d35334eb530802ad.setContent(html_734cdcf6e98c653e963403b6d955a441);
+            
+        
+
+        marker_3d598615c88f36c4765b5536fcab384a.bindPopup(popup_82969bc5b95a2c61d35334eb530802ad)
+        ;
+
+        
+    
+    
+            var marker_4a57a89a2bbbb3fe8ae7d1960c93ea5c = L.marker(
+                [56.0376489, 12.6992631],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_e58cafcb1e9bb30796eefbced13a8297 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e48221b80f54febeb9baf0a5cf1a07f4 = $(`<div id="html_e48221b80f54febeb9baf0a5cf1a07f4" style="width: 100.0%; height: 100.0%;">         <b>Fabriken Helsingborg</b><br>         Rönnowsgatan 8 C         </div>`)[0];
+                popup_e58cafcb1e9bb30796eefbced13a8297.setContent(html_e48221b80f54febeb9baf0a5cf1a07f4);
+            
+        
+
+        marker_4a57a89a2bbbb3fe8ae7d1960c93ea5c.bindPopup(popup_e58cafcb1e9bb30796eefbced13a8297)
+        ;
+
+        
+    
+    
+            var marker_e064aebdc440adf0434f746e9b1c0ce7 = L.marker(
+                [56.0468848, 12.6946071],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_a6563ec5319e3288ce18bfa4aea867bc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aee3f9fae9062d3e42ea28918183dfd3 = $(`<div id="html_aee3f9fae9062d3e42ea28918183dfd3" style="width: 100.0%; height: 100.0%;">         <b>Fahlmans</b><br>         Stortorget 11         </div>`)[0];
+                popup_a6563ec5319e3288ce18bfa4aea867bc.setContent(html_aee3f9fae9062d3e42ea28918183dfd3);
+            
+        
+
+        marker_e064aebdc440adf0434f746e9b1c0ce7.bindPopup(popup_a6563ec5319e3288ce18bfa4aea867bc)
+        ;
+
+        
+    
+    
+            var marker_23d3aff208566b7dc0797c4e83d5cf05 = L.marker(
+                [55.9984167, 12.7382197],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_243c93c9b02f485eaa2c94119000326e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f8e9a52c3e917c3876ddce5754aec4d5 = $(`<div id="html_f8e9a52c3e917c3876ddce5754aec4d5" style="width: 100.0%; height: 100.0%;">         <b>First Camp Råå Vallar</b><br>         Kustgatan         </div>`)[0];
+                popup_243c93c9b02f485eaa2c94119000326e.setContent(html_f8e9a52c3e917c3876ddce5754aec4d5);
+            
+        
+
+        marker_23d3aff208566b7dc0797c4e83d5cf05.bindPopup(popup_243c93c9b02f485eaa2c94119000326e)
+        ;
+
+        
+    
+    
+            var marker_8f9ddcf8433ad3076683ce1c0888713a = L.marker(
+                [56.09153, 12.75698],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_d39d6fd6c71efdec5a9e2d6e0469fed6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_284beaa7d87c75b6b7275424cbe8f8d8 = $(`<div id="html_284beaa7d87c75b6b7275424cbe8f8d8" style="width: 100.0%; height: 100.0%;">         <b>Fisk och skaldjur by Anette</b><br>         Marknadsvägen 9         </div>`)[0];
+                popup_d39d6fd6c71efdec5a9e2d6e0469fed6.setContent(html_284beaa7d87c75b6b7275424cbe8f8d8);
+            
+        
+
+        marker_8f9ddcf8433ad3076683ce1c0888713a.bindPopup(popup_d39d6fd6c71efdec5a9e2d6e0469fed6)
+        ;
+
+        
+    
+    
+            var marker_d2105a1714a6eecc691936464baa55c2 = L.marker(
+                [55.9947965, 12.7757672],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_ce051629c1e87fcea40fb75133503fd6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f3d88e3a1721b1136de750fa7e342af1 = $(`<div id="html_f3d88e3a1721b1136de750fa7e342af1" style="width: 100.0%; height: 100.0%;">         <b>Fredriksborgs Gård</b><br>         Pålstorpsvägen 115         </div>`)[0];
+                popup_ce051629c1e87fcea40fb75133503fd6.setContent(html_f3d88e3a1721b1136de750fa7e342af1);
+            
+        
+
+        marker_d2105a1714a6eecc691936464baa55c2.bindPopup(popup_ce051629c1e87fcea40fb75133503fd6)
+        ;
+
+        
+    
+    
+            var marker_456ba814bd13821f409cf590cc743cef = L.marker(
+                [56.0583527, 12.6821787],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_b494d8eb5d544995934f4619fcd0a2f7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b5cadc6c1660fb4e5dca71dc5d971d54 = $(`<div id="html_b5cadc6c1660fb4e5dca71dc5d971d54" style="width: 100.0%; height: 100.0%;">         <b>Fria Bad & Bar</b><br>         Drottninggatan 95         </div>`)[0];
+                popup_b494d8eb5d544995934f4619fcd0a2f7.setContent(html_b5cadc6c1660fb4e5dca71dc5d971d54);
+            
+        
+
+        marker_456ba814bd13821f409cf590cc743cef.bindPopup(popup_b494d8eb5d544995934f4619fcd0a2f7)
+        ;
+
+        
+    
+    
+            var marker_bff5ae429ce6d72fceb15e5903c04318 = L.marker(
+                [56.0461923, 12.6940472],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_4605b3bf81e1c60ca6e7bffffef791bf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_42b15d137f564c6ff6fbc88c57bb44cf = $(`<div id="html_42b15d137f564c6ff6fbc88c57bb44cf" style="width: 100.0%; height: 100.0%;">         <b>Frimurarlogernas Restaurant</b><br>         Stortorget 4         </div>`)[0];
+                popup_4605b3bf81e1c60ca6e7bffffef791bf.setContent(html_42b15d137f564c6ff6fbc88c57bb44cf);
+            
+        
+
+        marker_bff5ae429ce6d72fceb15e5903c04318.bindPopup(popup_4605b3bf81e1c60ca6e7bffffef791bf)
+        ;
+
+        
+    
+    
+            var marker_f04a788a7bf7eed6d79c18b0f1365f38 = L.marker(
+                [56.09153, 12.75698],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_d6b9d9091faa9ff63cb6a89a90b001ec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c98e75bba7e91ec5161e3cd08c1a4ef6 = $(`<div id="html_c98e75bba7e91ec5161e3cd08c1a4ef6" style="width: 100.0%; height: 100.0%;">         <b>G o Co</b><br>         Marknadsvägen 9         </div>`)[0];
+                popup_d6b9d9091faa9ff63cb6a89a90b001ec.setContent(html_c98e75bba7e91ec5161e3cd08c1a4ef6);
+            
+        
+
+        marker_f04a788a7bf7eed6d79c18b0f1365f38.bindPopup(popup_d6b9d9091faa9ff63cb6a89a90b001ec)
+        ;
+
+        
+    
+    
+            var marker_6ffee5d9d963a2561f8452398833a398 = L.marker(
+                [56.0465888, 12.6952756],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_e5476d39af35ca39de48e2e585b7b055 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_91819fbbf6fdbb8ac0b52b738009c8e7 = $(`<div id="html_91819fbbf6fdbb8ac0b52b738009c8e7" style="width: 100.0%; height: 100.0%;">         <b>Gents</b><br>         Lilla Torggatan 3         </div>`)[0];
+                popup_e5476d39af35ca39de48e2e585b7b055.setContent(html_91819fbbf6fdbb8ac0b52b738009c8e7);
+            
+        
+
+        marker_6ffee5d9d963a2561f8452398833a398.bindPopup(popup_e5476d39af35ca39de48e2e585b7b055)
+        ;
+
+        
+    
+    
+            var marker_88be11e9050ea0ac609b7dbbdcf7b0db = L.marker(
+                [56.0436287, 12.7099744],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_17be1522d54abfbcf4e2cfa44ce1b26b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_39f42109a4d7002deca3c40e4f228c53 = $(`<div id="html_39f42109a4d7002deca3c40e4f228c53" style="width: 100.0%; height: 100.0%;">         <b>Goa Humlan</b><br>         Malmögatan 2         </div>`)[0];
+                popup_17be1522d54abfbcf4e2cfa44ce1b26b.setContent(html_39f42109a4d7002deca3c40e4f228c53);
+            
+        
+
+        marker_88be11e9050ea0ac609b7dbbdcf7b0db.bindPopup(popup_17be1522d54abfbcf4e2cfa44ce1b26b)
+        ;
+
+        
+    
+    
+            var marker_af8b6d70d1029c5bdcf84a84c9291ea5 = L.marker(
+                [56.0407704, 12.7049516],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_92c7b2f79d1af8a943cdc8444f92c24c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a3c7745378dce70078138c7557822e74 = $(`<div id="html_a3c7745378dce70078138c7557822e74" style="width: 100.0%; height: 100.0%;">         <b>Goa Punkten</b><br>         Gasverksgatan 35         </div>`)[0];
+                popup_92c7b2f79d1af8a943cdc8444f92c24c.setContent(html_a3c7745378dce70078138c7557822e74);
+            
+        
+
+        marker_af8b6d70d1029c5bdcf84a84c9291ea5.bindPopup(popup_92c7b2f79d1af8a943cdc8444f92c24c)
+        ;
+
+        
+    
+    
+            var marker_4689312a0e11737e1dbfe7fb1082c9c0 = L.marker(
+                [56.0358229, 12.7119431],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_a04eac60d0318f04e73a191a44c01827 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1f789478f5ca90ed4a50e794f844bada = $(`<div id="html_1f789478f5ca90ed4a50e794f844bada" style="width: 100.0%; height: 100.0%;">         <b>Good Morning + Helsingborg</b><br>         Gustav Adolfs Gata 47         </div>`)[0];
+                popup_a04eac60d0318f04e73a191a44c01827.setContent(html_1f789478f5ca90ed4a50e794f844bada);
+            
+        
+
+        marker_4689312a0e11737e1dbfe7fb1082c9c0.bindPopup(popup_a04eac60d0318f04e73a191a44c01827)
+        ;
+
+        
+    
+    
+            var marker_5caa31af22e04158522c823567389e42 = L.marker(
+                [56.0921, 12.7568],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_0c740312bfcfaa2b628cab73c6e7c0c0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3a8dbe19de2c7db013b40f12f8729abf = $(`<div id="html_3a8dbe19de2c7db013b40f12f8729abf" style="width: 100.0%; height: 100.0%;">         <b>Grekiska Kolgrillen</b><br>         Väla Restaurangtorget, Marknadsv 9         </div>`)[0];
+                popup_0c740312bfcfaa2b628cab73c6e7c0c0.setContent(html_3a8dbe19de2c7db013b40f12f8729abf);
+            
+        
+
+        marker_5caa31af22e04158522c823567389e42.bindPopup(popup_0c740312bfcfaa2b628cab73c6e7c0c0)
+        ;
+
+        
+    
+    
+            var marker_9c5387507889528cf88ee486f71187fc = L.marker(
+                [56.0130617, 12.7175101],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_f2d465a124d7a46d0772165f5726e501 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a0d5d388bd83535eb2cf54e702d3b611 = $(`<div id="html_a0d5d388bd83535eb2cf54e702d3b611" style="width: 100.0%; height: 100.0%;">         <b>Grytan Restaurang</b><br>         Industrigatan 70         </div>`)[0];
+                popup_f2d465a124d7a46d0772165f5726e501.setContent(html_a0d5d388bd83535eb2cf54e702d3b611);
+            
+        
+
+        marker_9c5387507889528cf88ee486f71187fc.bindPopup(popup_f2d465a124d7a46d0772165f5726e501)
+        ;
+
+        
+    
+    
+            var marker_8972faeb8a9cf662591333ba2ebe57e0 = L.marker(
+                [55.976, 12.7565],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_0484553e8549e85b1d3618cdc9fc6204 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6ebfbb29a25c66e1279564122b9bf768 = $(`<div id="html_6ebfbb29a25c66e1279564122b9bf768" style="width: 100.0%; height: 100.0%;">         <b>Grytan Restaurang - Rya golfklubb</b><br>         Rya Golfbanevägen 20         </div>`)[0];
+                popup_0484553e8549e85b1d3618cdc9fc6204.setContent(html_6ebfbb29a25c66e1279564122b9bf768);
+            
+        
+
+        marker_8972faeb8a9cf662591333ba2ebe57e0.bindPopup(popup_0484553e8549e85b1d3618cdc9fc6204)
+        ;
+
+        
+    
+    
+            var marker_2e6f4409874986c0c86315af67734f9a = L.marker(
+                [56.0497027, 12.6908346],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_a376cb52371f71b2326cdd25a90d1c95 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fd3c05101be6e193061a3b9fef01ae7c = $(`<div id="html_fd3c05101be6e193061a3b9fef01ae7c" style="width: 100.0%; height: 100.0%;">         <b>Haket Restaurang</b><br>         Kullagatan 55         </div>`)[0];
+                popup_a376cb52371f71b2326cdd25a90d1c95.setContent(html_fd3c05101be6e193061a3b9fef01ae7c);
+            
+        
+
+        marker_2e6f4409874986c0c86315af67734f9a.bindPopup(popup_a376cb52371f71b2326cdd25a90d1c95)
+        ;
+
+        
+    
+    
+            var marker_d4563c585a56f55a07c1cf6e53884d5d = L.marker(
+                [56.0456253, 12.692419],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_33dffd52eab30ae52dc83188624261d5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5fe8beff706c10c26fd6089e98e4767b = $(`<div id="html_5fe8beff706c10c26fd6089e98e4767b" style="width: 100.0%; height: 100.0%;">         <b>Hamnkrogen</b><br>         Hamntorget 2         </div>`)[0];
+                popup_33dffd52eab30ae52dc83188624261d5.setContent(html_5fe8beff706c10c26fd6089e98e4767b);
+            
+        
+
+        marker_d4563c585a56f55a07c1cf6e53884d5d.bindPopup(popup_33dffd52eab30ae52dc83188624261d5)
+        ;
+
+        
+    
+    
+            var marker_e0de33b2a6566153a8ce064483d2a8fe = L.marker(
+                [56.107559, 12.7486282],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_5144f274144881878b2af7c545b5d763 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d7da22411665b5af5be8a4e99fffa71a = $(`<div id="html_d7da22411665b5af5be8a4e99fffa71a" style="width: 100.0%; height: 100.0%;">         <b>Happy Asian Food Restaurang</b><br>         Ginstgatan 3         </div>`)[0];
+                popup_5144f274144881878b2af7c545b5d763.setContent(html_d7da22411665b5af5be8a4e99fffa71a);
+            
+        
+
+        marker_e0de33b2a6566153a8ce064483d2a8fe.bindPopup(popup_5144f274144881878b2af7c545b5d763)
+        ;
+
+        
+    
+    
+            var marker_a06bc9d12f11365c6d56b09b210f5374 = L.marker(
+                [56.0457685, 12.6862622],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_0c6924752e479ac939e27f3082c0ae3a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c95b2a38a5553dbf696023238ab41b57 = $(`<div id="html_c95b2a38a5553dbf696023238ab41b57" style="width: 100.0%; height: 100.0%;">         <b>Havslyckan</b><br>         Parapeten 1         </div>`)[0];
+                popup_0c6924752e479ac939e27f3082c0ae3a.setContent(html_c95b2a38a5553dbf696023238ab41b57);
+            
+        
+
+        marker_a06bc9d12f11365c6d56b09b210f5374.bindPopup(popup_0c6924752e479ac939e27f3082c0ae3a)
+        ;
+
+        
+    
+    
+            var marker_0dbf8cab301adf97d88ce80786837aa9 = L.marker(
+                [56.0529038, 12.7047386],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_440f37ed878d23707438555829e85b69 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e423000a2091e2c164fa7c18d3270dcf = $(`<div id="html_e423000a2091e2c164fa7c18d3270dcf" style="width: 100.0%; height: 100.0%;">         <b>Helsingborg Arena Restaurang</b><br>         Mellersta Stenbocksgatan 14         </div>`)[0];
+                popup_440f37ed878d23707438555829e85b69.setContent(html_e423000a2091e2c164fa7c18d3270dcf);
+            
+        
+
+        marker_0dbf8cab301adf97d88ce80786837aa9.bindPopup(popup_440f37ed878d23707438555829e85b69)
+        ;
+
+        
+    
+    
+            var marker_39721968b8b252cc7e4535fbb477526d = L.marker(
+                [56.0382314, 12.707324],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_178855d5018a6a386373fb3e8e84e364 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_31856242da6e0ea47c7686508a2e54db = $(`<div id="html_31856242da6e0ea47c7686508a2e54db" style="width: 100.0%; height: 100.0%;">         <b>Helsingborgen</b><br>         Furutorpsgatan 47         </div>`)[0];
+                popup_178855d5018a6a386373fb3e8e84e364.setContent(html_31856242da6e0ea47c7686508a2e54db);
+            
+        
+
+        marker_39721968b8b252cc7e4535fbb477526d.bindPopup(popup_178855d5018a6a386373fb3e8e84e364)
+        ;
+
+        
+    
+    
+            var marker_32260f5ce6a3d7fbc79cee95dec4bab7 = L.marker(
+                [56.0509702, 12.6878945],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_24013b5ab29644c8a1f7ee8b687ee6d2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dc3ed0e40013235755d3e0d2c1bde993 = $(`<div id="html_dc3ed0e40013235755d3e0d2c1bde993" style="width: 100.0%; height: 100.0%;">         <b>Helsingborgs stadsteater</b><br>         Karl Johans gata 1         </div>`)[0];
+                popup_24013b5ab29644c8a1f7ee8b687ee6d2.setContent(html_dc3ed0e40013235755d3e0d2c1bde993);
+            
+        
+
+        marker_32260f5ce6a3d7fbc79cee95dec4bab7.bindPopup(popup_24013b5ab29644c8a1f7ee8b687ee6d2)
+        ;
+
+        
+    
+    
+            var marker_6cf4e74aca1cb09b13b7d8cde287a565 = L.marker(
+                [56.046644, 12.6888562],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_57c7b735c3f114e21b786fea8c7cb129 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d2fe51495d787331d43d16fcd80d5a6b = $(`<div id="html_d2fe51495d787331d43d16fcd80d5a6b" style="width: 100.0%; height: 100.0%;">         <b>Helsingörskajen 10</b><br>         Helsingörskajen 10         </div>`)[0];
+                popup_57c7b735c3f114e21b786fea8c7cb129.setContent(html_d2fe51495d787331d43d16fcd80d5a6b);
+            
+        
+
+        marker_6cf4e74aca1cb09b13b7d8cde287a565.bindPopup(popup_57c7b735c3f114e21b786fea8c7cb129)
+        ;
+
+        
+    
+    
+            var marker_b25b0ab54f7f41d6514aa150ccc18fa7 = L.marker(
+                [56.0464793, 12.6945916],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_409efbf9751d01ff3f980637e3ab6e80 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5286407f88d787ee4c4d790502f3a4ae = $(`<div id="html_5286407f88d787ee4c4d790502f3a4ae" style="width: 100.0%; height: 100.0%;">         <b>Home Hotel Grand Helsingborg</b><br>         Stortorget 8-12         </div>`)[0];
+                popup_409efbf9751d01ff3f980637e3ab6e80.setContent(html_5286407f88d787ee4c4d790502f3a4ae);
+            
+        
+
+        marker_b25b0ab54f7f41d6514aa150ccc18fa7.bindPopup(popup_409efbf9751d01ff3f980637e3ab6e80)
+        ;
+
+        
+    
+    
+            var marker_a4385249fa0dfa955f07984ab305d83c = L.marker(
+                [56.0438761, 12.6962745],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_0f79203993af3d1d776ce336671ee097 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e48170a1f989af3c8d43d28b93572e4d = $(`<div id="html_e48170a1f989af3c8d43d28b93572e4d" style="width: 100.0%; height: 100.0%;">         <b>Hotel Linnéa</b><br>         Prästgatan 4         </div>`)[0];
+                popup_0f79203993af3d1d776ce336671ee097.setContent(html_e48170a1f989af3c8d43d28b93572e4d);
+            
+        
+
+        marker_a4385249fa0dfa955f07984ab305d83c.bindPopup(popup_0f79203993af3d1d776ce336671ee097)
+        ;
+
+        
+    
+    
+            var marker_3e0fd16fe693a75206c59d458f51ca87 = L.marker(
+                [56.0435313, 12.6974396],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_013e7c18161ca26fcf910025a336993d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c6f2b1eeaaffeef0ba4315d208a92e0f = $(`<div id="html_c6f2b1eeaaffeef0ba4315d208a92e0f" style="width: 100.0%; height: 100.0%;">         <b>Hotell Stadsparken</b><br>         Bruksgatan 40         </div>`)[0];
+                popup_013e7c18161ca26fcf910025a336993d.setContent(html_c6f2b1eeaaffeef0ba4315d208a92e0f);
+            
+        
+
+        marker_3e0fd16fe693a75206c59d458f51ca87.bindPopup(popup_013e7c18161ca26fcf910025a336993d)
+        ;
+
+        
+    
+    
+            var marker_8dbf1f8507a991bfe662d657ed9d203f = L.marker(
+                [56.0486282, 12.6898302],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_d9e81433dd6ef5aa67477e1125cda937 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_effa41f26500f77155c2309b70ec0bcd = $(`<div id="html_effa41f26500f77155c2309b70ec0bcd" style="width: 100.0%; height: 100.0%;">         <b>Hygge Restaurang & Bar</b><br>         Sundstorget 5         </div>`)[0];
+                popup_d9e81433dd6ef5aa67477e1125cda937.setContent(html_effa41f26500f77155c2309b70ec0bcd);
+            
+        
+
+        marker_8dbf1f8507a991bfe662d657ed9d203f.bindPopup(popup_d9e81433dd6ef5aa67477e1125cda937)
+        ;
+
+        
+    
+    
+            var marker_766ff1e09515b4d9de58d50ff9175e32 = L.marker(
+                [56.0467484, 12.6969268],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_9e5b714cbeff74457d918e5c1d501109 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ecd6bec9cfad2501ef1ff14124df9f41 = $(`<div id="html_ecd6bec9cfad2501ef1ff14124df9f41" style="width: 100.0%; height: 100.0%;">         <b>Hålan</b><br>         Billeplatsen 1         </div>`)[0];
+                popup_9e5b714cbeff74457d918e5c1d501109.setContent(html_ecd6bec9cfad2501ef1ff14124df9f41);
+            
+        
+
+        marker_766ff1e09515b4d9de58d50ff9175e32.bindPopup(popup_9e5b714cbeff74457d918e5c1d501109)
+        ;
+
+        
+    
+    
+            var marker_e9afd2752b695ad24f677508fbae282b = L.marker(
+                [56.0490938, 12.6889787],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_7c5d8f8dda9b062744039758998c4dc0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c7fc759a91c6b9c344f4e96a7bfdc4e6 = $(`<div id="html_c7fc759a91c6b9c344f4e96a7bfdc4e6" style="width: 100.0%; height: 100.0%;">         <b>Hörnet</b><br>         Roskildegatan 2         </div>`)[0];
+                popup_7c5d8f8dda9b062744039758998c4dc0.setContent(html_c7fc759a91c6b9c344f4e96a7bfdc4e6);
+            
+        
+
+        marker_e9afd2752b695ad24f677508fbae282b.bindPopup(popup_7c5d8f8dda9b062744039758998c4dc0)
+        ;
+
+        
+    
+    
+            var marker_0ef2bb1eb2894f1ecb2489213047e0a6 = L.marker(
+                [56.0558, 12.6967],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_4bfc0cc9ddaf707e1f7904afa56e4c02 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4f1ee129d744f260768f7d314450b833 = $(`<div id="html_4f1ee129d744f260768f7d314450b833" style="width: 100.0%; height: 100.0%;">         <b>Icha Mochi</b><br>         Hjälmhultsgatan 8         </div>`)[0];
+                popup_4bfc0cc9ddaf707e1f7904afa56e4c02.setContent(html_4f1ee129d744f260768f7d314450b833);
+            
+        
+
+        marker_0ef2bb1eb2894f1ecb2489213047e0a6.bindPopup(popup_4bfc0cc9ddaf707e1f7904afa56e4c02)
+        ;
+
+        
+    
+    
+            var marker_62e4f8180b4663134ef642d04ecd8715 = L.marker(
+                [56.048162, 12.690069],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_7f5eb5b36a6bb362380932fdf798d82a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_92df09db94bf41e028f0427a3bfc2977 = $(`<div id="html_92df09db94bf41e028f0427a3bfc2977" style="width: 100.0%; height: 100.0%;">         <b>Icha Mochi City AB</b><br>         Sundstorget 1-3         </div>`)[0];
+                popup_7f5eb5b36a6bb362380932fdf798d82a.setContent(html_92df09db94bf41e028f0427a3bfc2977);
+            
+        
+
+        marker_62e4f8180b4663134ef642d04ecd8715.bindPopup(popup_7f5eb5b36a6bb362380932fdf798d82a)
+        ;
+
+        
+    
+    
+            var marker_9b08cbede5cd891902006ce8b7ff3e4c = L.marker(
+                [56.0459869, 12.690979],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_18af39b96d769bec05b0016ef5abc45a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_17d4818159d3da2af32bf00e2a823f3f = $(`<div id="html_17d4818159d3da2af32bf00e2a823f3f" style="width: 100.0%; height: 100.0%;">         <b>Il Mio Ristorante</b><br>         Kungsgatan 2         </div>`)[0];
+                popup_18af39b96d769bec05b0016ef5abc45a.setContent(html_17d4818159d3da2af32bf00e2a823f3f);
+            
+        
+
+        marker_9b08cbede5cd891902006ce8b7ff3e4c.bindPopup(popup_18af39b96d769bec05b0016ef5abc45a)
+        ;
+
+        
+    
+    
+            var marker_ea45116c61cb7f4017f8b5af80663ddf = L.marker(
+                [56.0441753, 12.6971699],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_8566be42618110bbe4ab1a1d2ad9082f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0d66576d63abcae6fc60ba152ca369d6 = $(`<div id="html_0d66576d63abcae6fc60ba152ca369d6" style="width: 100.0%; height: 100.0%;">         <b>Indian Zayka</b><br>         Bruksgatan 25         </div>`)[0];
+                popup_8566be42618110bbe4ab1a1d2ad9082f.setContent(html_0d66576d63abcae6fc60ba152ca369d6);
+            
+        
+
+        marker_ea45116c61cb7f4017f8b5af80663ddf.bindPopup(popup_8566be42618110bbe4ab1a1d2ad9082f)
+        ;
+
+        
+    
+    
+            var marker_bcf266092cad096101769e2bc952d710 = L.marker(
+                [56.0444362, 12.6967462],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_117d5dbb61ee09eaef39ad4f3e8cc17a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ec2bb15c3d9aa86e839dc363c136c8cb = $(`<div id="html_ec2bb15c3d9aa86e839dc363c136c8cb" style="width: 100.0%; height: 100.0%;">         <b>Italy Espresso House</b><br>         Bruksgatan 30         </div>`)[0];
+                popup_117d5dbb61ee09eaef39ad4f3e8cc17a.setContent(html_ec2bb15c3d9aa86e839dc363c136c8cb);
+            
+        
+
+        marker_bcf266092cad096101769e2bc952d710.bindPopup(popup_117d5dbb61ee09eaef39ad4f3e8cc17a)
+        ;
+
+        
+    
+    
+            var marker_56f14607a32d65bab76ee046fac784c8 = L.marker(
+                [56.0475332, 12.6931672],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_7547467e5a299323bbcca2232e25e5d8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cfe39917245b10796f471a4f9d450ca2 = $(`<div id="html_cfe39917245b10796f471a4f9d450ca2" style="width: 100.0%; height: 100.0%;">         <b>K- Gränd</b><br>         Kolmätaregränden 7         </div>`)[0];
+                popup_7547467e5a299323bbcca2232e25e5d8.setContent(html_cfe39917245b10796f471a4f9d450ca2);
+            
+        
+
+        marker_56f14607a32d65bab76ee046fac784c8.bindPopup(popup_7547467e5a299323bbcca2232e25e5d8)
+        ;
+
+        
+    
+    
+            var marker_4f126e631ee4a7d7b34f3f748fea54a7 = L.marker(
+                [55.9940333, 12.7426962],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_66a1a200cc764ef3e57cd595c9b79e4d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_257f1da13206d6927927e6ff2e37328f = $(`<div id="html_257f1da13206d6927927e6ff2e37328f" style="width: 100.0%; height: 100.0%;">         <b>Kajgatan 1</b><br>         Kajgatan 1         </div>`)[0];
+                popup_66a1a200cc764ef3e57cd595c9b79e4d.setContent(html_257f1da13206d6927927e6ff2e37328f);
+            
+        
+
+        marker_4f126e631ee4a7d7b34f3f748fea54a7.bindPopup(popup_66a1a200cc764ef3e57cd595c9b79e4d)
+        ;
+
+        
+    
+    
+            var marker_f779d399bf5868416d57f583b4b2e210 = L.marker(
+                [56.0405206, 12.6995777],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_2f3acf8fb6e8f7daca34c5932ab73561 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_529774033e0a40ca81c4eb9b40b7bfed = $(`<div id="html_529774033e0a40ca81c4eb9b40b7bfed" style="width: 100.0%; height: 100.0%;">         <b>Khai & Mui</b><br>         Kaliforniegatan 13         </div>`)[0];
+                popup_2f3acf8fb6e8f7daca34c5932ab73561.setContent(html_529774033e0a40ca81c4eb9b40b7bfed);
+            
+        
+
+        marker_f779d399bf5868416d57f583b4b2e210.bindPopup(popup_2f3acf8fb6e8f7daca34c5932ab73561)
+        ;
+
+        
+    
+    
+            var marker_13dd4c94daecd17924bf8290d4c68f9e = L.marker(
+                [56.0462359, 12.6921103],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_0b97e280a4594cc30706ab46d614e0fd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ea198f7ba1cd45b4cab7801266e19eb5 = $(`<div id="html_ea198f7ba1cd45b4cab7801266e19eb5" style="width: 100.0%; height: 100.0%;">         <b>Kings Corner</b><br>         Drottninggatan 1         </div>`)[0];
+                popup_0b97e280a4594cc30706ab46d614e0fd.setContent(html_ea198f7ba1cd45b4cab7801266e19eb5);
+            
+        
+
+        marker_13dd4c94daecd17924bf8290d4c68f9e.bindPopup(popup_0b97e280a4594cc30706ab46d614e0fd)
+        ;
+
+        
+    
+    
+            var marker_0cdf3b6f1b6e41be68d628451f93f296 = L.marker(
+                [56.0458756, 12.6978848],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_58ce3d152d038f934fff999fb9970d59 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a822006622869e51f487ab1604ebddc4 = $(`<div id="html_a822006622869e51f487ab1604ebddc4" style="width: 100.0%; height: 100.0%;">         <b>Kol & Cocktails</b><br>         Södra storgatan 11-13         </div>`)[0];
+                popup_58ce3d152d038f934fff999fb9970d59.setContent(html_a822006622869e51f487ab1604ebddc4);
+            
+        
+
+        marker_0cdf3b6f1b6e41be68d628451f93f296.bindPopup(popup_58ce3d152d038f934fff999fb9970d59)
+        ;
+
+        
+    
+    
+            var marker_6baae4ff2799dfd44d7c9b77c76785ae = L.marker(
+                [56.0444362, 12.6967462],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_f945d4a551bc8b38c00e5c565e8fedc3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f1622338b8aeb5cf97b60540e9213f16 = $(`<div id="html_f1622338b8aeb5cf97b60540e9213f16" style="width: 100.0%; height: 100.0%;">         <b>Koreana</b><br>         Bruksgatan 30         </div>`)[0];
+                popup_f945d4a551bc8b38c00e5c565e8fedc3.setContent(html_f1622338b8aeb5cf97b60540e9213f16);
+            
+        
+
+        marker_6baae4ff2799dfd44d7c9b77c76785ae.bindPopup(popup_f945d4a551bc8b38c00e5c565e8fedc3)
+        ;
+
+        
+    
+    
+            var marker_7c4517b7766c667d4c4b9407b6583321 = L.marker(
+                [55.9619121, 12.8536815],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_4d6757e41da4873a2366126b7e0e77e5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3607c6dee419911f7f53a58eec0a7df9 = $(`<div id="html_3607c6dee419911f7f53a58eec0a7df9" style="width: 100.0%; height: 100.0%;">         <b>Krogen Wallåkra</b><br>         Drejarestigen         </div>`)[0];
+                popup_4d6757e41da4873a2366126b7e0e77e5.setContent(html_3607c6dee419911f7f53a58eec0a7df9);
+            
+        
+
+        marker_7c4517b7766c667d4c4b9407b6583321.bindPopup(popup_4d6757e41da4873a2366126b7e0e77e5)
+        ;
+
+        
+    
+    
+            var marker_1644ca4e69ec855826e8f02fa1d7f7bb = L.marker(
+                [56.0463932, 12.6955169],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_0ba5c829eb3461f4a8f85262d0eec9aa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1b29e6f764c020c180003668be7e2137 = $(`<div id="html_1b29e6f764c020c180003668be7e2137" style="width: 100.0%; height: 100.0%;">         <b>Kryp In Café Vinbar</b><br>         Mariagatan 4         </div>`)[0];
+                popup_0ba5c829eb3461f4a8f85262d0eec9aa.setContent(html_1b29e6f764c020c180003668be7e2137);
+            
+        
+
+        marker_1644ca4e69ec855826e8f02fa1d7f7bb.bindPopup(popup_0ba5c829eb3461f4a8f85262d0eec9aa)
+        ;
+
+        
+    
+    
+            var marker_9f43d2ea24c86a5431f7a55c95afa0f4 = L.marker(
+                [56.0508023, 12.6890083],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_72a56ff0f3b3ed4c5e3c9ed215a35a6d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f9a8c2292d4bf1ca1cde737224056651 = $(`<div id="html_f9a8c2292d4bf1ca1cde737224056651" style="width: 100.0%; height: 100.0%;">         <b>Kök 74</b><br>         Drottninggatan 74         </div>`)[0];
+                popup_72a56ff0f3b3ed4c5e3c9ed215a35a6d.setContent(html_f9a8c2292d4bf1ca1cde737224056651);
+            
+        
+
+        marker_9f43d2ea24c86a5431f7a55c95afa0f4.bindPopup(popup_72a56ff0f3b3ed4c5e3c9ed215a35a6d)
+        ;
+
+        
+    
+    
+            var marker_764bfe55a113d87e3341c45d07e0a30b = L.marker(
+                [56.0383619, 12.6967228],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_f297d5ac1a1f80ad8b91c5a9974c6fde = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8344626699712751755ca30708f6cac9 = $(`<div id="html_8344626699712751755ca30708f6cac9" style="width: 100.0%; height: 100.0%;">         <b>Köket</b><br>         Sjögatan 1         </div>`)[0];
+                popup_f297d5ac1a1f80ad8b91c5a9974c6fde.setContent(html_8344626699712751755ca30708f6cac9);
+            
+        
+
+        marker_764bfe55a113d87e3341c45d07e0a30b.bindPopup(popup_f297d5ac1a1f80ad8b91c5a9974c6fde)
+        ;
+
+        
+    
+    
+            var marker_29e0a76bb271aae804a7423c08674b1b = L.marker(
+                [56.0427782, 12.7008816],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_7cc2f06a0d1c35de8411d150535dee54 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6c95240df8084bcdcb8818b99b85d26f = $(`<div id="html_6c95240df8084bcdcb8818b99b85d26f" style="width: 100.0%; height: 100.0%;">         <b>Laserdome</b><br>         Södergatan 6         </div>`)[0];
+                popup_7cc2f06a0d1c35de8411d150535dee54.setContent(html_6c95240df8084bcdcb8818b99b85d26f);
+            
+        
+
+        marker_29e0a76bb271aae804a7423c08674b1b.bindPopup(popup_7cc2f06a0d1c35de8411d150535dee54)
+        ;
+
+        
+    
+    
+            var marker_defeddbc9f7ce2c274c966de0f5214ab = L.marker(
+                [56.0556483, 12.690124],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_ab0b01c9b0aa1d69ec156c663b2ccdbf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ea610243149d3c1fc9d20f145432e472 = $(`<div id="html_ea610243149d3c1fc9d20f145432e472" style="width: 100.0%; height: 100.0%;">         <b>Lilla Bruket Tågaborg</b><br>         Tågagatan 31         </div>`)[0];
+                popup_ab0b01c9b0aa1d69ec156c663b2ccdbf.setContent(html_ea610243149d3c1fc9d20f145432e472);
+            
+        
+
+        marker_defeddbc9f7ce2c274c966de0f5214ab.bindPopup(popup_ab0b01c9b0aa1d69ec156c663b2ccdbf)
+        ;
+
+        
+    
+    
+            var marker_08e976d7072218c87a19bdae8a545eff = L.marker(
+                [56.0500451, 12.690363],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_890e106253b974d64a299f6b577412a0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3bd52c6a078ac8c7575bfddcbcb32885 = $(`<div id="html_3bd52c6a078ac8c7575bfddcbcb32885" style="width: 100.0%; height: 100.0%;">         <b>Lilla spanjoren</b><br>         Kullagatan 60         </div>`)[0];
+                popup_890e106253b974d64a299f6b577412a0.setContent(html_3bd52c6a078ac8c7575bfddcbcb32885);
+            
+        
+
+        marker_08e976d7072218c87a19bdae8a545eff.bindPopup(popup_890e106253b974d64a299f6b577412a0)
+        ;
+
+        
+    
+    
+            var marker_c966affa84a3c60bec759cd815b332a0 = L.marker(
+                [56.0492256, 12.6899371],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_96097e3809f95b310ed9ed4d10b154b3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5dfefedeaacd7d243b4a4b7340631300 = $(`<div id="html_5dfefedeaacd7d243b4a4b7340631300" style="width: 100.0%; height: 100.0%;">         <b>Linnea & Basilika</b><br>         Drottninggatan 17         </div>`)[0];
+                popup_96097e3809f95b310ed9ed4d10b154b3.setContent(html_5dfefedeaacd7d243b4a4b7340631300);
+            
+        
+
+        marker_c966affa84a3c60bec759cd815b332a0.bindPopup(popup_96097e3809f95b310ed9ed4d10b154b3)
+        ;
+
+        
+    
+    
+            var marker_f68e1aa71beffa2237c974a124f53989 = L.marker(
+                [56.0830544, 12.6855996],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_d13bc44b12dfe482f6a3c888edef8111 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5561486be5366db02c60d476b577beb6 = $(`<div id="html_5561486be5366db02c60d476b577beb6" style="width: 100.0%; height: 100.0%;">         <b>Linnéaträdgården</b><br>         Mariehällsvägen 100         </div>`)[0];
+                popup_d13bc44b12dfe482f6a3c888edef8111.setContent(html_5561486be5366db02c60d476b577beb6);
+            
+        
+
+        marker_f68e1aa71beffa2237c974a124f53989.bindPopup(popup_d13bc44b12dfe482f6a3c888edef8111)
+        ;
+
+        
+    
+    
+            var marker_b6c7ab04f506501036d0a0e1ebeff6f8 = L.marker(
+                [56.0455686, 12.6958775],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_07f706a8f43fba1042f3b2f4eb3e73db = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3ad10db55381a8e6673ad522fb12126c = $(`<div id="html_3ad10db55381a8e6673ad522fb12126c" style="width: 100.0%; height: 100.0%;">         <b>Lion Bar Helsingborg</b><br>         Bruksgatan 2         </div>`)[0];
+                popup_07f706a8f43fba1042f3b2f4eb3e73db.setContent(html_3ad10db55381a8e6673ad522fb12126c);
+            
+        
+
+        marker_b6c7ab04f506501036d0a0e1ebeff6f8.bindPopup(popup_07f706a8f43fba1042f3b2f4eb3e73db)
+        ;
+
+        
+    
+    
+            var marker_b105991045c2b64bc37623e0f6bc8909 = L.marker(
+                [56.1324421, 12.7146902],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_05496a0e1bdb5e60677359079fa674c7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_088b38f24d2995cefafe99116b39ae47 = $(`<div id="html_088b38f24d2995cefafe99116b39ae47" style="width: 100.0%; height: 100.0%;">         <b>Loftet</b><br>         Tursköpsvägen 154         </div>`)[0];
+                popup_05496a0e1bdb5e60677359079fa674c7.setContent(html_088b38f24d2995cefafe99116b39ae47);
+            
+        
+
+        marker_b105991045c2b64bc37623e0f6bc8909.bindPopup(popup_05496a0e1bdb5e60677359079fa674c7)
+        ;
+
+        
+    
+    
+            var marker_e9e706c2d7882f3ac859f04df3a5d6a9 = L.marker(
+                [56.1029178, 12.7015027],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_7f00d3c9ca88bdabdcb6fee29b3ba2f3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3a6425376dc1b30773027d061e57003a = $(`<div id="html_3a6425376dc1b30773027d061e57003a" style="width: 100.0%; height: 100.0%;">         <b>Lottenlund Estate Events</b><br>         Lottenlundsvägen 2         </div>`)[0];
+                popup_7f00d3c9ca88bdabdcb6fee29b3ba2f3.setContent(html_3a6425376dc1b30773027d061e57003a);
+            
+        
+
+        marker_e9e706c2d7882f3ac859f04df3a5d6a9.bindPopup(popup_7f00d3c9ca88bdabdcb6fee29b3ba2f3)
+        ;
+
+        
+    
+    
+            var marker_d9c26ef07e967d02db4ccf8f0f481b0b = L.marker(
+                [56.04442, 12.69293],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_3236ddce584e57797f6424f735b98a52 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c1fc76a363da2b567fc9ee931ab4137b = $(`<div id="html_c1fc76a363da2b567fc9ee931ab4137b" style="width: 100.0%; height: 100.0%;">         <b>M/S Tilda</b><br>         Kungstorget 6/ Öresund ( fartyg )         </div>`)[0];
+                popup_3236ddce584e57797f6424f735b98a52.setContent(html_c1fc76a363da2b567fc9ee931ab4137b);
+            
+        
+
+        marker_d9c26ef07e967d02db4ccf8f0f481b0b.bindPopup(popup_3236ddce584e57797f6424f735b98a52)
+        ;
+
+        
+    
+    
+            var marker_9eeeb3a163798c4fe72cd1a75f722b39 = L.marker(
+                [56.0486787, 12.6874159],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_9d4842ab5c4fcffeb603e96f95080594 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2bfae7e1503e77bd8a70a7a9a7f6fd23 = $(`<div id="html_2bfae7e1503e77bd8a70a7a9a7f6fd23" style="width: 100.0%; height: 100.0%;">         <b>Machu Picchu Andres</b><br>         Kajpromenaden 10         </div>`)[0];
+                popup_9d4842ab5c4fcffeb603e96f95080594.setContent(html_2bfae7e1503e77bd8a70a7a9a7f6fd23);
+            
+        
+
+        marker_9eeeb3a163798c4fe72cd1a75f722b39.bindPopup(popup_9d4842ab5c4fcffeb603e96f95080594)
+        ;
+
+        
+    
+    
+            var marker_746762f7e11489e9cac34c37e3a11a08 = L.marker(
+                [56.0477109, 12.6946895],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_25a4612d03bfddf5d27b5b9536314fa2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d77cbaffcd58e8590aa26aca7718e27e = $(`<div id="html_d77cbaffcd58e8590aa26aca7718e27e" style="width: 100.0%; height: 100.0%;">         <b>Madame Moustache</b><br>         Norra Storgatan 9         </div>`)[0];
+                popup_25a4612d03bfddf5d27b5b9536314fa2.setContent(html_d77cbaffcd58e8590aa26aca7718e27e);
+            
+        
+
+        marker_746762f7e11489e9cac34c37e3a11a08.bindPopup(popup_25a4612d03bfddf5d27b5b9536314fa2)
+        ;
+
+        
+    
+    
+            var marker_e6215f01c1694b93d14e62d39f92fa13 = L.marker(
+                [55.9994519, 12.7398447],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_ac5e4298440951b3e57cc4586b13f5b2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_76b5f10029872b884866fa73d83b0cf2 = $(`<div id="html_76b5f10029872b884866fa73d83b0cf2" style="width: 100.0%; height: 100.0%;">         <b>Mammas Kök</b><br>         Rååvägen 31         </div>`)[0];
+                popup_ac5e4298440951b3e57cc4586b13f5b2.setContent(html_76b5f10029872b884866fa73d83b0cf2);
+            
+        
+
+        marker_e6215f01c1694b93d14e62d39f92fa13.bindPopup(popup_ac5e4298440951b3e57cc4586b13f5b2)
+        ;
+
+        
+    
+    
+            var marker_b968b778a6007577c60f532b92430293 = L.marker(
+                [56.0488387, 12.6933788],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_a366e92bed7db98925d8c52ee18006c1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_faf1222252b2c25c92e5f59852693e23 = $(`<div id="html_faf1222252b2c25c92e5f59852693e23" style="width: 100.0%; height: 100.0%;">         <b>MAVI</b><br>         Fågelsångsgatan 1         </div>`)[0];
+                popup_a366e92bed7db98925d8c52ee18006c1.setContent(html_faf1222252b2c25c92e5f59852693e23);
+            
+        
+
+        marker_b968b778a6007577c60f532b92430293.bindPopup(popup_a366e92bed7db98925d8c52ee18006c1)
+        ;
+
+        
+    
+    
+            var marker_052f683824247574558dca7c3bc72879 = L.marker(
+                [56.0186365, 12.7213215],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_ed0f188ec6098a06d7c94724cb8dbda2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6ba447c1a9c4144653964c2db54655c2 = $(`<div id="html_6ba447c1a9c4144653964c2db54655c2" style="width: 100.0%; height: 100.0%;">         <b>Miatorps Pizzeria & Restaurang</b><br>         Planteringsvägen 111         </div>`)[0];
+                popup_ed0f188ec6098a06d7c94724cb8dbda2.setContent(html_6ba447c1a9c4144653964c2db54655c2);
+            
+        
+
+        marker_052f683824247574558dca7c3bc72879.bindPopup(popup_ed0f188ec6098a06d7c94724cb8dbda2)
+        ;
+
+        
+    
+    
+            var marker_720bd2d73a3a6df360cc8e85b79f7177 = L.marker(
+                [56.0123996, 12.7601209],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_3c454082b00782ee3444ac22a643a185 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b7e00bc80601f4d7800710b12a734fb0 = $(`<div id="html_b7e00bc80601f4d7800710b12a734fb0" style="width: 100.0%; height: 100.0%;">         <b>Milano Restaurang & Pizzeria</b><br>         Ättekullagatan 2         </div>`)[0];
+                popup_3c454082b00782ee3444ac22a643a185.setContent(html_b7e00bc80601f4d7800710b12a734fb0);
+            
+        
+
+        marker_720bd2d73a3a6df360cc8e85b79f7177.bindPopup(popup_3c454082b00782ee3444ac22a643a185)
+        ;
+
+        
+    
+    
+            var marker_31a95e3ecf2d922e9bc359575cb12507 = L.marker(
+                [56.0376489, 12.6992631],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_42c5d4f62dd1b67ab49bc00d071d0c1f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a40f23aa117b7b774de84a0fcb3d6b59 = $(`<div id="html_a40f23aa117b7b774de84a0fcb3d6b59" style="width: 100.0%; height: 100.0%;">         <b>Mindpark</b><br>         Rönnowsgatan 8 C         </div>`)[0];
+                popup_42c5d4f62dd1b67ab49bc00d071d0c1f.setContent(html_a40f23aa117b7b774de84a0fcb3d6b59);
+            
+        
+
+        marker_31a95e3ecf2d922e9bc359575cb12507.bindPopup(popup_42c5d4f62dd1b67ab49bc00d071d0c1f)
+        ;
+
+        
+    
+    
+            var marker_8ea92f79cfc8e4642adb12d2c4e47701 = L.marker(
+                [55.9545902, 12.8330811],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_eafd04df510ecd9f1fee393a64876492 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b07fcf21eaadfb25e5fee21e4283f217 = $(`<div id="html_b07fcf21eaadfb25e5fee21e4283f217" style="width: 100.0%; height: 100.0%;">         <b>Miss Alice Krog & Butik</b><br>         Aspavägen 418         </div>`)[0];
+                popup_eafd04df510ecd9f1fee393a64876492.setContent(html_b07fcf21eaadfb25e5fee21e4283f217);
+            
+        
+
+        marker_8ea92f79cfc8e4642adb12d2c4e47701.bindPopup(popup_eafd04df510ecd9f1fee393a64876492)
+        ;
+
+        
+    
+    
+            var marker_cac5dc093c82d02e08aba33f8d1b736d = L.marker(
+                [56.0284505, 12.72585],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_2700a8e1d5cd1b1144b891f144dd60a3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b97ff9260364e66ca5f4d163337137f9 = $(`<div id="html_b97ff9260364e66ca5f4d163337137f9" style="width: 100.0%; height: 100.0%;">         <b>Myzuki</b><br>         Elinebergsplatsen 5         </div>`)[0];
+                popup_2700a8e1d5cd1b1144b891f144dd60a3.setContent(html_b97ff9260364e66ca5f4d163337137f9);
+            
+        
+
+        marker_cac5dc093c82d02e08aba33f8d1b736d.bindPopup(popup_2700a8e1d5cd1b1144b891f144dd60a3)
+        ;
+
+        
+    
+    
+            var marker_3dd5c4c398db37f66d9ff6be59887895 = L.marker(
+                [56.0577985, 12.8787211],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_f9a675aec6bd421294ad08659e5bb939 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8cc084d4c28ee619ffe74df0793dcbad = $(`<div id="html_8cc084d4c28ee619ffe74df0793dcbad" style="width: 100.0%; height: 100.0%;">         <b>Mörarps Pizzeria</b><br>         Bjuvsleden 11         </div>`)[0];
+                popup_f9a675aec6bd421294ad08659e5bb939.setContent(html_8cc084d4c28ee619ffe74df0793dcbad);
+            
+        
+
+        marker_3dd5c4c398db37f66d9ff6be59887895.bindPopup(popup_f9a675aec6bd421294ad08659e5bb939)
+        ;
+
+        
+    
+    
+            var marker_5799f886fcaeab25b6551357239c009b = L.marker(
+                [56.0542557, 12.6853901],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_d8a918bd558c6a8b48fdf610ffe84ef8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fed780ad478c92d287ade1a62002c363 = $(`<div id="html_fed780ad478c92d287ade1a62002c363" style="width: 100.0%; height: 100.0%;">         <b>Nabo Matbar</b><br>         Drottninggatan 124         </div>`)[0];
+                popup_d8a918bd558c6a8b48fdf610ffe84ef8.setContent(html_fed780ad478c92d287ade1a62002c363);
+            
+        
+
+        marker_5799f886fcaeab25b6551357239c009b.bindPopup(popup_d8a918bd558c6a8b48fdf610ffe84ef8)
+        ;
+
+        
+    
+    
+            var marker_d16d5316c30aa9ab4c808d4631bcbe86 = L.marker(
+                [56.09153, 12.75698],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_9e0f4a8505a8233fd6df71705f5b52ce = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_30fb9346445af8382d578a26d4f7f406 = $(`<div id="html_30fb9346445af8382d578a26d4f7f406" style="width: 100.0%; height: 100.0%;">         <b>Nancy´s Steakhouse</b><br>         Marknadsvägen 9         </div>`)[0];
+                popup_9e0f4a8505a8233fd6df71705f5b52ce.setContent(html_30fb9346445af8382d578a26d4f7f406);
+            
+        
+
+        marker_d16d5316c30aa9ab4c808d4631bcbe86.bindPopup(popup_9e0f4a8505a8233fd6df71705f5b52ce)
+        ;
+
+        
+    
+    
+            var marker_58334d3aea0b1e957fb7e1913db8f5e8 = L.marker(
+                [56.0468347, 12.6915671],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_36b3cdaa45a895c2c0ec57dbf21d407d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_908cddb63c58a8fdb137c2cc400d1b4b = $(`<div id="html_908cddb63c58a8fdb137c2cc400d1b4b" style="width: 100.0%; height: 100.0%;">         <b>Nihon Sushi</b><br>         Badhusgatan 6         </div>`)[0];
+                popup_36b3cdaa45a895c2c0ec57dbf21d407d.setContent(html_908cddb63c58a8fdb137c2cc400d1b4b);
+            
+        
+
+        marker_58334d3aea0b1e957fb7e1913db8f5e8.bindPopup(popup_36b3cdaa45a895c2c0ec57dbf21d407d)
+        ;
+
+        
+    
+    
+            var marker_42b1bd56760f9c980612110d09cd3945 = L.marker(
+                [56.0455686, 12.6958775],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_85811fa234076e21ed4fcdf9867ac419 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_50613b6e8a68a0180098ece7bd87e3df = $(`<div id="html_50613b6e8a68a0180098ece7bd87e3df" style="width: 100.0%; height: 100.0%;">         <b>NOC/H</b><br>         Bruksgatan 2         </div>`)[0];
+                popup_85811fa234076e21ed4fcdf9867ac419.setContent(html_50613b6e8a68a0180098ece7bd87e3df);
+            
+        
+
+        marker_42b1bd56760f9c980612110d09cd3945.bindPopup(popup_85811fa234076e21ed4fcdf9867ac419)
+        ;
+
+        
+    
+    
+            var marker_e0eda9f6f7d3e03af4b54954b741340d = L.marker(
+                [56.0458061, 12.6954867],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_ca7e86113f3d42d49fd70630a9f63514 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_344dcc6dda4bc1baae05e1f8364173db = $(`<div id="html_344dcc6dda4bc1baae05e1f8364173db" style="width: 100.0%; height: 100.0%;">         <b>Noise</b><br>         S Kyrkogatan 7         </div>`)[0];
+                popup_ca7e86113f3d42d49fd70630a9f63514.setContent(html_344dcc6dda4bc1baae05e1f8364173db);
+            
+        
+
+        marker_e0eda9f6f7d3e03af4b54954b741340d.bindPopup(popup_ca7e86113f3d42d49fd70630a9f63514)
+        ;
+
+        
+    
+    
+            var marker_a51464e14652dfd188926b1638d92c58 = L.marker(
+                [56.056353, 12.701454],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_aa8345d29e1ba15067a9d2427e479269 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4b22666732b5d03a601ef15dcb38c1d1 = $(`<div id="html_4b22666732b5d03a601ef15dcb38c1d1" style="width: 100.0%; height: 100.0%;">         <b>Norrbro Kök & Bar</b><br>         Norrbroplatsen 7         </div>`)[0];
+                popup_aa8345d29e1ba15067a9d2427e479269.setContent(html_4b22666732b5d03a601ef15dcb38c1d1);
+            
+        
+
+        marker_a51464e14652dfd188926b1638d92c58.bindPopup(popup_aa8345d29e1ba15067a9d2427e479269)
+        ;
+
+        
+    
+    
+            var marker_9f5076fa22c79be10667445d89fcffa3 = L.marker(
+                [56.0472308, 12.6929205],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_36fa3ab4d1dc74c1537e0758f5e218ee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a851f379e2237d4da61ad069eb9fdcdb = $(`<div id="html_a851f379e2237d4da61ad069eb9fdcdb" style="width: 100.0%; height: 100.0%;">         <b>O´Learys Sportsbar</b><br>         Rådhustorget 10         </div>`)[0];
+                popup_36fa3ab4d1dc74c1537e0758f5e218ee.setContent(html_a851f379e2237d4da61ad069eb9fdcdb);
+            
+        
+
+        marker_9f5076fa22c79be10667445d89fcffa3.bindPopup(popup_36fa3ab4d1dc74c1537e0758f5e218ee)
+        ;
+
+        
+    
+    
+            var marker_2009b49a6f46e6f63002ca4a05eec9c3 = L.marker(
+                [56.0436155, 12.6984848],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_a0bb7e16bcf21976e8f02ff591ee8b60 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b178bdcf2e90d8ffb1db6a2b7136e1ee = $(`<div id="html_b178bdcf2e90d8ffb1db6a2b7136e1ee" style="width: 100.0%; height: 100.0%;">         <b>Odd Fellow</b><br>         Trädgårdsgatan 13         </div>`)[0];
+                popup_a0bb7e16bcf21976e8f02ff591ee8b60.setContent(html_b178bdcf2e90d8ffb1db6a2b7136e1ee);
+            
+        
+
+        marker_2009b49a6f46e6f63002ca4a05eec9c3.bindPopup(popup_a0bb7e16bcf21976e8f02ff591ee8b60)
+        ;
+
+        
+    
+    
+            var marker_de1840d89899ec1925eff28d3145c25b = L.marker(
+                [56.0447269, 12.6966653],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_23bb91b9dae170e55801ff2020b7982f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_de2cac07b2f239d58a167d46ff8a69bc = $(`<div id="html_de2cac07b2f239d58a167d46ff8a69bc" style="width: 100.0%; height: 100.0%;">         <b>Old Times</b><br>         Bruksgatan 24         </div>`)[0];
+                popup_23bb91b9dae170e55801ff2020b7982f.setContent(html_de2cac07b2f239d58a167d46ff8a69bc);
+            
+        
+
+        marker_de1840d89899ec1925eff28d3145c25b.bindPopup(popup_23bb91b9dae170e55801ff2020b7982f)
+        ;
+
+        
+    
+    
+            var marker_fcebc285062e6350940824aefa136f1d = L.marker(
+                [56.0462363, 12.6956144],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_3f16633ee4d510bbf7ff4e5729d30bf9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_803e942af5d09c8986f1e46192b4028a = $(`<div id="html_803e942af5d09c8986f1e46192b4028a" style="width: 100.0%; height: 100.0%;">         <b>Olsons Skafferi</b><br>         Mariagatan 6         </div>`)[0];
+                popup_3f16633ee4d510bbf7ff4e5729d30bf9.setContent(html_803e942af5d09c8986f1e46192b4028a);
+            
+        
+
+        marker_fcebc285062e6350940824aefa136f1d.bindPopup(popup_3f16633ee4d510bbf7ff4e5729d30bf9)
+        ;
+
+        
+    
+    
+            var marker_0185993a75b411e5097515a999708902 = L.marker(
+                [56.049833, 12.7077122],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_d16e35ebee81bd9de93be28fe13ac356 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_46a900d5a8927846a11a430df1e58ec9 = $(`<div id="html_46a900d5a8927846a11a430df1e58ec9" style="width: 100.0%; height: 100.0%;">         <b>Olympia</b><br>         Filbornavägen 5         </div>`)[0];
+                popup_d16e35ebee81bd9de93be28fe13ac356.setContent(html_46a900d5a8927846a11a430df1e58ec9);
+            
+        
+
+        marker_0185993a75b411e5097515a999708902.bindPopup(popup_d16e35ebee81bd9de93be28fe13ac356)
+        ;
+
+        
+    
+    
+            var marker_f2d9b41b44b6abe24aa21364da4773be = L.marker(
+                [56.0518042, 12.7058555],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_1c69c6b270a6facb538cf4d121041bb1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_756e926a108b1f4aff523fb02131b9fe = $(`<div id="html_756e926a108b1f4aff523fb02131b9fe" style="width: 100.0%; height: 100.0%;">         <b>Olympia Bowling</b><br>         Idrottens Hus         </div>`)[0];
+                popup_1c69c6b270a6facb538cf4d121041bb1.setContent(html_756e926a108b1f4aff523fb02131b9fe);
+            
+        
+
+        marker_f2d9b41b44b6abe24aa21364da4773be.bindPopup(popup_1c69c6b270a6facb538cf4d121041bb1)
+        ;
+
+        
+    
+    
+            var marker_ecb15629fbff4cc5216de8e8a27ef329 = L.marker(
+                [56.0487449, 12.7047479],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_1e9419a76dd08012c2cba648f0494e35 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_07ac370593ec947fca9f89030a5478e0 = $(`<div id="html_07ac370593ec947fca9f89030a5478e0" style="width: 100.0%; height: 100.0%;">         <b>Olympia Restaurang & Pizzeria</b><br>         Magnus Erikssons gata 8         </div>`)[0];
+                popup_1e9419a76dd08012c2cba648f0494e35.setContent(html_07ac370593ec947fca9f89030a5478e0);
+            
+        
+
+        marker_ecb15629fbff4cc5216de8e8a27ef329.bindPopup(popup_1e9419a76dd08012c2cba648f0494e35)
+        ;
+
+        
+    
+    
+            var marker_c949039de75d2be48754e7467783c8c2 = L.marker(
+                [55.9663, 12.7822],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_5dbb4fad979a303192fc4df5fe0950b4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_67815d0667c6f1fa4d44495051873162 = $(`<div id="html_67815d0667c6f1fa4d44495051873162" style="width: 100.0%; height: 100.0%;">         <b>Omakaze Sushi</b><br>         Rydebäcks stationsgatan 51         </div>`)[0];
+                popup_5dbb4fad979a303192fc4df5fe0950b4.setContent(html_67815d0667c6f1fa4d44495051873162);
+            
+        
+
+        marker_c949039de75d2be48754e7467783c8c2.bindPopup(popup_5dbb4fad979a303192fc4df5fe0950b4)
+        ;
+
+        
+    
+    
+            var marker_e70cc82bec322bb5bf54c5574ff1f65c = L.marker(
+                [56.0460079, 12.6981386],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_814ab85412066a1977df34551db24c37 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_12b7f94f0111e717cf482aed19657704 = $(`<div id="html_12b7f94f0111e717cf482aed19657704" style="width: 100.0%; height: 100.0%;">         <b>OSS Kitchen</b><br>         Himmelriksgränden 2         </div>`)[0];
+                popup_814ab85412066a1977df34551db24c37.setContent(html_12b7f94f0111e717cf482aed19657704);
+            
+        
+
+        marker_e70cc82bec322bb5bf54c5574ff1f65c.bindPopup(popup_814ab85412066a1977df34551db24c37)
+        ;
+
+        
+    
+    
+            var marker_986b0ec55596b309af6077b387c17d88 = L.marker(
+                [56.0323687, 12.7063022],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_0d929b86a2f10611952d7396fb26a3ca = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c855f30edaff5b179ab7d71fc01e9f99 = $(`<div id="html_c855f30edaff5b179ab7d71fc01e9f99" style="width: 100.0%; height: 100.0%;">         <b>Oxhallen</b><br>         Cindersgatan 4         </div>`)[0];
+                popup_0d929b86a2f10611952d7396fb26a3ca.setContent(html_c855f30edaff5b179ab7d71fc01e9f99);
+            
+        
+
+        marker_986b0ec55596b309af6077b387c17d88.bindPopup(popup_0d929b86a2f10611952d7396fb26a3ca)
+        ;
+
+        
+    
+    
+            var marker_b7c98f15ed7da0e6c9643883ce39c06c = L.marker(
+                [56.0446, 12.6863],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_ce054ef7ccc9908ef9e48b86472cc2ba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9db8688c885e4ededa0a2c0af7354fec = $(`<div id="html_9db8688c885e4ededa0a2c0af7354fec" style="width: 100.0%; height: 100.0%;">         <b>Parapeten</b><br>         Hamnpiren, Norra Hamnen         </div>`)[0];
+                popup_ce054ef7ccc9908ef9e48b86472cc2ba.setContent(html_9db8688c885e4ededa0a2c0af7354fec);
+            
+        
+
+        marker_b7c98f15ed7da0e6c9643883ce39c06c.bindPopup(popup_ce054ef7ccc9908ef9e48b86472cc2ba)
+        ;
+
+        
+    
+    
+            var marker_54c24b8764a4e7416194633e5e467570 = L.marker(
+                [56.0571616, 12.7127028],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_38af60c1d340337344f03477782968be = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_23a2bac6a8c3214215cb4be106742a69 = $(`<div id="html_23a2bac6a8c3214215cb4be106742a69" style="width: 100.0%; height: 100.0%;">         <b>Pausa hos oss - Fredriksdal</b><br>         Oscar trapps väg 10         </div>`)[0];
+                popup_38af60c1d340337344f03477782968be.setContent(html_23a2bac6a8c3214215cb4be106742a69);
+            
+        
+
+        marker_54c24b8764a4e7416194633e5e467570.bindPopup(popup_38af60c1d340337344f03477782968be)
+        ;
+
+        
+    
+    
+            var marker_4ea0619e13f5c193637dd314730adcad = L.marker(
+                [56.0482948, 12.6938222],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_c92f764a3788c7332e9949f7eac21e50 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7d8437378238289e677e7b32055524b4 = $(`<div id="html_7d8437378238289e677e7b32055524b4" style="width: 100.0%; height: 100.0%;">         <b>Pellegrino</b><br>         Norra Storgatan 15         </div>`)[0];
+                popup_c92f764a3788c7332e9949f7eac21e50.setContent(html_7d8437378238289e677e7b32055524b4);
+            
+        
+
+        marker_4ea0619e13f5c193637dd314730adcad.bindPopup(popup_c92f764a3788c7332e9949f7eac21e50)
+        ;
+
+        
+    
+    
+            var marker_c950e2dd169dad724953394fa385ab9d = L.marker(
+                [56.0461211, 12.6915319],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_adeaa302d733438dcaf90ba201fa3acc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7a6fa8ef005833c55a95b1a8b89c7d8e = $(`<div id="html_7a6fa8ef005833c55a95b1a8b89c7d8e" style="width: 100.0%; height: 100.0%;">         <b>Phuun Thai</b><br>         Hamntorget 3         </div>`)[0];
+                popup_adeaa302d733438dcaf90ba201fa3acc.setContent(html_7a6fa8ef005833c55a95b1a8b89c7d8e);
+            
+        
+
+        marker_c950e2dd169dad724953394fa385ab9d.bindPopup(popup_adeaa302d733438dcaf90ba201fa3acc)
+        ;
+
+        
+    
+    
+            var marker_b4463fb36b62ca503c5f7559f9ec78c4 = L.marker(
+                [56.0156329, 12.7226451],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_ed95cc6d4e2e0ed6818bf5db5339e722 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f8112742ea993c930e1d3eec2d7b6eb1 = $(`<div id="html_f8112742ea993c930e1d3eec2d7b6eb1" style="width: 100.0%; height: 100.0%;">         <b>Phuun Thai Heden</b><br>         Planteringsvägen 112         </div>`)[0];
+                popup_ed95cc6d4e2e0ed6818bf5db5339e722.setContent(html_f8112742ea993c930e1d3eec2d7b6eb1);
+            
+        
+
+        marker_b4463fb36b62ca503c5f7559f9ec78c4.bindPopup(popup_ed95cc6d4e2e0ed6818bf5db5339e722)
+        ;
+
+        
+    
+    
+            var marker_2c7f39701fc64ee337745582436f5c8a = L.marker(
+                [56.0014655, 12.7423862],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_8cec786936235573e016b5cd1f43eafb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_92de13d21d3406af09af52123e8f1357 = $(`<div id="html_92de13d21d3406af09af52123e8f1357" style="width: 100.0%; height: 100.0%;">         <b>Pikado</b><br>         Landskronavägen 1-3         </div>`)[0];
+                popup_8cec786936235573e016b5cd1f43eafb.setContent(html_92de13d21d3406af09af52123e8f1357);
+            
+        
+
+        marker_2c7f39701fc64ee337745582436f5c8a.bindPopup(popup_8cec786936235573e016b5cd1f43eafb)
+        ;
+
+        
+    
+    
+            var marker_e01a0119d006764684d11c85944fdd0b = L.marker(
+                [56.0402928, 12.7013881],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_6dbb0efa5ff50852c384122dee3052cc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_95f9d8513f741f7f86d40a3d67ce4740 = $(`<div id="html_95f9d8513f741f7f86d40a3d67ce4740" style="width: 100.0%; height: 100.0%;">         <b>Pinchos Söder</b><br>         Södergatan 32         </div>`)[0];
+                popup_6dbb0efa5ff50852c384122dee3052cc.setContent(html_95f9d8513f741f7f86d40a3d67ce4740);
+            
+        
+
+        marker_e01a0119d006764684d11c85944fdd0b.bindPopup(popup_6dbb0efa5ff50852c384122dee3052cc)
+        ;
+
+        
+    
+    
+            var marker_d66e7623c14b809221c00b4c3b2b2e24 = L.marker(
+                [56.0402928, 12.7013881],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_3e4975fb05c24a16618235c3e4d10a53 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9ea67fa8586afffb8ab1d4b38647cdad = $(`<div id="html_9ea67fa8586afffb8ab1d4b38647cdad" style="width: 100.0%; height: 100.0%;">         <b>Pitcher´s</b><br>         Södergatan 32         </div>`)[0];
+                popup_3e4975fb05c24a16618235c3e4d10a53.setContent(html_9ea67fa8586afffb8ab1d4b38647cdad);
+            
+        
+
+        marker_d66e7623c14b809221c00b4c3b2b2e24.bindPopup(popup_3e4975fb05c24a16618235c3e4d10a53)
+        ;
+
+        
+    
+    
+            var marker_21e557fde1f4548edda23c75b4c4b674 = L.marker(
+                [56.0607382, 12.6957849],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_d391bb2ca5aece54fd8d971821e4c423 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_179d012f13c92d2f704d5794ad951fe2 = $(`<div id="html_179d012f13c92d2f704d5794ad951fe2" style="width: 100.0%; height: 100.0%;">         <b>Primo Il Forno</b><br>         Tågagatan 74         </div>`)[0];
+                popup_d391bb2ca5aece54fd8d971821e4c423.setContent(html_179d012f13c92d2f704d5794ad951fe2);
+            
+        
+
+        marker_21e557fde1f4548edda23c75b4c4b674.bindPopup(popup_d391bb2ca5aece54fd8d971821e4c423)
+        ;
+
+        
+    
+    
+            var marker_087c7099e070d0237f7c57d34dafcbe7 = L.marker(
+                [56.0297206, 12.813673],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_bf31bb9f5fe7499ecf05a502e3b08f38 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_255b2cfac1f5ec77f01e1e066e769ee5 = $(`<div id="html_255b2cfac1f5ec77f01e1e066e769ee5" style="width: 100.0%; height: 100.0%;">         <b>Pronto i Påarp</b><br>         Ekebergavägen 3         </div>`)[0];
+                popup_bf31bb9f5fe7499ecf05a502e3b08f38.setContent(html_255b2cfac1f5ec77f01e1e066e769ee5);
+            
+        
+
+        marker_087c7099e070d0237f7c57d34dafcbe7.bindPopup(popup_bf31bb9f5fe7499ecf05a502e3b08f38)
+        ;
+
+        
+    
+    
+            var marker_36069d751f5a253c8dd33d866cb32080 = L.marker(
+                [56.0449809, 12.6954615],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_51c8c44c7410de3b4bd8328284192576 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bc6be70a55c969cdcacc7af2c8422c6f = $(`<div id="html_bc6be70a55c969cdcacc7af2c8422c6f" style="width: 100.0%; height: 100.0%;">         <b>Pub Nessie</b><br>         Möllegränden 3         </div>`)[0];
+                popup_51c8c44c7410de3b4bd8328284192576.setContent(html_bc6be70a55c969cdcacc7af2c8422c6f);
+            
+        
+
+        marker_36069d751f5a253c8dd33d866cb32080.bindPopup(popup_51c8c44c7410de3b4bd8328284192576)
+        ;
+
+        
+    
+    
+            var marker_608d82c11a1cd1e371a954dd2e1cd347 = L.marker(
+                [55.99517, 12.74547],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_0946f23839ec2d8560cd1daf7fffd5f6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_09f514aa1933b1057b7f46ed79452951 = $(`<div id="html_09f514aa1933b1057b7f46ed79452951" style="width: 100.0%; height: 100.0%;">         <b>På Piren</b><br>         Hamnplan         </div>`)[0];
+                popup_0946f23839ec2d8560cd1daf7fffd5f6.setContent(html_09f514aa1933b1057b7f46ed79452951);
+            
+        
+
+        marker_608d82c11a1cd1e371a954dd2e1cd347.bindPopup(popup_0946f23839ec2d8560cd1daf7fffd5f6)
+        ;
+
+        
+    
+    
+            var marker_0a74f7b05085469f94ae00e412353c4d = L.marker(
+                [56.0289684, 12.8148755],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_c11294fc6c6a874110e65a34dbc21ef8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_93194025c04565e664109c822acdb2b7 = $(`<div id="html_93194025c04565e664109c822acdb2b7" style="width: 100.0%; height: 100.0%;">         <b>Påarps Pizzeria</b><br>         Lokföraregatan 24         </div>`)[0];
+                popup_c11294fc6c6a874110e65a34dbc21ef8.setContent(html_93194025c04565e664109c822acdb2b7);
+            
+        
+
+        marker_0a74f7b05085469f94ae00e412353c4d.bindPopup(popup_c11294fc6c6a874110e65a34dbc21ef8)
+        ;
+
+        
+    
+    
+            var marker_ea9d2c68313d24024108248580c02519 = L.marker(
+                [56.0644841, 12.6781381],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_e090ed0d3452535e08e48848494f6357 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0688c80bc5ac9da61cbc26a11a74e678 = $(`<div id="html_0688c80bc5ac9da61cbc26a11a74e678" style="width: 100.0%; height: 100.0%;">         <b>Pålsjö Krog</b><br>         Drottninggatan 151         </div>`)[0];
+                popup_e090ed0d3452535e08e48848494f6357.setContent(html_0688c80bc5ac9da61cbc26a11a74e678);
+            
+        
+
+        marker_ea9d2c68313d24024108248580c02519.bindPopup(popup_e090ed0d3452535e08e48848494f6357)
+        ;
+
+        
+    
+    
+            var marker_8240fefc3a54eada5f8e9eb2e8c1f77e = L.marker(
+                [56.069861, 12.685528],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_5329977d6ec78132082f358a8bf8f7f5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_771db8ac9626e45d6df6797be038cdb3 = $(`<div id="html_771db8ac9626e45d6df6797be038cdb3" style="width: 100.0%; height: 100.0%;">         <b>Pålsjöpaviljongen</b><br>         Pålsjöpaviljongen 2         </div>`)[0];
+                popup_5329977d6ec78132082f358a8bf8f7f5.setContent(html_771db8ac9626e45d6df6797be038cdb3);
+            
+        
+
+        marker_8240fefc3a54eada5f8e9eb2e8c1f77e.bindPopup(popup_5329977d6ec78132082f358a8bf8f7f5)
+        ;
+
+        
+    
+    
+            var marker_aa33008999f8c79c7d7101f093758b4a = L.marker(
+                [56.0407868, 12.7001613],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_0a8a9603092ae06abeee1db470c1819f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f2aa8c61df64a47f9d199326644b1709 = $(`<div id="html_f2aa8c61df64a47f9d199326644b1709" style="width: 100.0%; height: 100.0%;">         <b>Radisson Blu Hotel Metropol</b><br>         Carl Krooks gata 16         </div>`)[0];
+                popup_0a8a9603092ae06abeee1db470c1819f.setContent(html_f2aa8c61df64a47f9d199326644b1709);
+            
+        
+
+        marker_aa33008999f8c79c7d7101f093758b4a.bindPopup(popup_0a8a9603092ae06abeee1db470c1819f)
+        ;
+
+        
+    
+    
+            var marker_d26dc182e62aa7f0d5c3430de84e571c = L.marker(
+                [56.0523377, 12.6870299],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_04220661185ed2b749a7dddae3fe3ab4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5626101a2faf65acca3e00c7078b55bd = $(`<div id="html_5626101a2faf65acca3e00c7078b55bd" style="width: 100.0%; height: 100.0%;">         <b>Regio</b><br>         Drottninggatan 100         </div>`)[0];
+                popup_04220661185ed2b749a7dddae3fe3ab4.setContent(html_5626101a2faf65acca3e00c7078b55bd);
+            
+        
+
+        marker_d26dc182e62aa7f0d5c3430de84e571c.bindPopup(popup_04220661185ed2b749a7dddae3fe3ab4)
+        ;
+
+        
+    
+    
+            var marker_3a6506ed081aebe17fe423a60d4f4286 = L.marker(
+                [56.0086925, 12.8089449],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_00a434e1f33c2b3c280b5111ff4f8e3e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b2cfd8e3a169cf05d0b91aa804162aaf = $(`<div id="html_b2cfd8e3a169cf05d0b91aa804162aaf" style="width: 100.0%; height: 100.0%;">         <b>Restaurang & Pizzeria i Bårslöv</b><br>         Snödroppegatan 1         </div>`)[0];
+                popup_00a434e1f33c2b3c280b5111ff4f8e3e.setContent(html_b2cfd8e3a169cf05d0b91aa804162aaf);
+            
+        
+
+        marker_3a6506ed081aebe17fe423a60d4f4286.bindPopup(popup_00a434e1f33c2b3c280b5111ff4f8e3e)
+        ;
+
+        
+    
+    
+            var marker_668c2b38168c8098920267afd43d36b1 = L.marker(
+                [55.9915876, 12.7458053],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_8d259464330617a4f67d9b1e27e5b6b6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f40038d6ab9cf6d943dd249215f26d99 = $(`<div id="html_f40038d6ab9cf6d943dd249215f26d99" style="width: 100.0%; height: 100.0%;">         <b>Restaurang Ankaret Råå</b><br>         Västindiegatan 22         </div>`)[0];
+                popup_8d259464330617a4f67d9b1e27e5b6b6.setContent(html_f40038d6ab9cf6d943dd249215f26d99);
+            
+        
+
+        marker_668c2b38168c8098920267afd43d36b1.bindPopup(popup_8d259464330617a4f67d9b1e27e5b6b6)
+        ;
+
+        
+    
+    
+            var marker_e54dc4a35580d201eb23d68a832d0ec8 = L.marker(
+                [56.0507472, 12.6853024],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_a95f42d951495f9a58a7720b38cc4e4c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_304e1181f84941f483eba67a4d340ac6 = $(`<div id="html_304e1181f84941f483eba67a4d340ac6" style="width: 100.0%; height: 100.0%;">         <b>Restaurang Babou</b><br>         Kajpromenaden 21         </div>`)[0];
+                popup_a95f42d951495f9a58a7720b38cc4e4c.setContent(html_304e1181f84941f483eba67a4d340ac6);
+            
+        
+
+        marker_e54dc4a35580d201eb23d68a832d0ec8.bindPopup(popup_a95f42d951495f9a58a7720b38cc4e4c)
+        ;
+
+        
+    
+    
+            var marker_afe35d6c33b5c60b290c83e7a8049423 = L.marker(
+                [56.0451333, 12.6962882],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_793516eead69f6e05ee1a2ff4ba2d3b2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_034af9c5fa830fa7112a9604427d6d41 = $(`<div id="html_034af9c5fa830fa7112a9604427d6d41" style="width: 100.0%; height: 100.0%;">         <b>Restaurang Créo</b><br>         Bruksgatan 18         </div>`)[0];
+                popup_793516eead69f6e05ee1a2ff4ba2d3b2.setContent(html_034af9c5fa830fa7112a9604427d6d41);
+            
+        
+
+        marker_afe35d6c33b5c60b290c83e7a8049423.bindPopup(popup_793516eead69f6e05ee1a2ff4ba2d3b2)
+        ;
+
+        
+    
+    
+            var marker_4457e8840f3bfdafce9a00a8d0c27fb8 = L.marker(
+                [56.0489268, 12.6896722],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_11566e80c8aab759a629f88e9f826e14 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7543e66e317d2de39df3cb4a233aabe8 = $(`<div id="html_7543e66e317d2de39df3cb4a233aabe8" style="width: 100.0%; height: 100.0%;">         <b>Restaurang Edelweiss</b><br>         Drottninggatan 15         </div>`)[0];
+                popup_11566e80c8aab759a629f88e9f826e14.setContent(html_7543e66e317d2de39df3cb4a233aabe8);
+            
+        
+
+        marker_4457e8840f3bfdafce9a00a8d0c27fb8.bindPopup(popup_11566e80c8aab759a629f88e9f826e14)
+        ;
+
+        
+    
+    
+            var marker_a83408750cfc4579e104c3fcb250eb58 = L.marker(
+                [56.045938, 12.6956085],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_b15de6cfd0079865a0201a19c73b7ebe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_81e3e7325ee2725975fe6d209658b34d = $(`<div id="html_81e3e7325ee2725975fe6d209658b34d" style="width: 100.0%; height: 100.0%;">         <b>Restaurang Le Cardinal</b><br>         Södra Kyrkogatan 9         </div>`)[0];
+                popup_b15de6cfd0079865a0201a19c73b7ebe.setContent(html_81e3e7325ee2725975fe6d209658b34d);
+            
+        
+
+        marker_a83408750cfc4579e104c3fcb250eb58.bindPopup(popup_b15de6cfd0079865a0201a19c73b7ebe)
+        ;
+
+        
+    
+    
+            var marker_305f99a03516152ea272bc76d2e1ea34 = L.marker(
+                [56.0506858, 12.689142],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_ccf1c93360d1e18f85a8f10e976e6385 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e8732122291f284a9947b36bab36f2ef = $(`<div id="html_e8732122291f284a9947b36bab36f2ef" style="width: 100.0%; height: 100.0%;">         <b>Restaurang Marconi</b><br>         Drottninggatan 72         </div>`)[0];
+                popup_ccf1c93360d1e18f85a8f10e976e6385.setContent(html_e8732122291f284a9947b36bab36f2ef);
+            
+        
+
+        marker_305f99a03516152ea272bc76d2e1ea34.bindPopup(popup_ccf1c93360d1e18f85a8f10e976e6385)
+        ;
+
+        
+    
+    
+            var marker_a92b80f989840db99d65b622145af45f = L.marker(
+                [56.0506188, 12.6847563],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_a4a144c5d4b4526f787e250109806f36 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d2b35defe62beef05f28e6a1168a1201 = $(`<div id="html_d2b35defe62beef05f28e6a1168a1201" style="width: 100.0%; height: 100.0%;">         <b>Restaurang Pub Ro</b><br>         Båthusgatan 11         </div>`)[0];
+                popup_a4a144c5d4b4526f787e250109806f36.setContent(html_d2b35defe62beef05f28e6a1168a1201);
+            
+        
+
+        marker_a92b80f989840db99d65b622145af45f.bindPopup(popup_a4a144c5d4b4526f787e250109806f36)
+        ;
+
+        
+    
+    
+            var marker_923551b52e125290b43c8006dbf8d972 = L.marker(
+                [56.0458151, 12.6938086],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_de9a18b0da79036a66722f5b64682233 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_75b5ded1ee584e7a66bb16855e672cdd = $(`<div id="html_75b5ded1ee584e7a66bb16855e672cdd" style="width: 100.0%; height: 100.0%;">         <b>Restaurang Yoko</b><br>         Järnvägsgatan 3         </div>`)[0];
+                popup_de9a18b0da79036a66722f5b64682233.setContent(html_75b5ded1ee584e7a66bb16855e672cdd);
+            
+        
+
+        marker_923551b52e125290b43c8006dbf8d972.bindPopup(popup_de9a18b0da79036a66722f5b64682233)
+        ;
+
+        
+    
+    
+            var marker_cac7153ab417018cda7100f0c5ff3d70 = L.marker(
+                [56.0446, 12.6863],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_95b780222efdbfc3aee0511779d636a0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_02ba43269508d85b938fc8a389da17c4 = $(`<div id="html_02ba43269508d85b938fc8a389da17c4" style="width: 100.0%; height: 100.0%;">         <b>Restaurangskolan</b><br>         Hamnpaviljongen, Parapeten         </div>`)[0];
+                popup_95b780222efdbfc3aee0511779d636a0.setContent(html_02ba43269508d85b938fc8a389da17c4);
+            
+        
+
+        marker_cac7153ab417018cda7100f0c5ff3d70.bindPopup(popup_95b780222efdbfc3aee0511779d636a0)
+        ;
+
+        
+    
+    
+            var marker_642dfde6059a0a36bacdf29d00dc074b = L.marker(
+                [56.0500244, 12.6841353],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_5217ace180b847c71b579ba944f2ba50 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_49a04e53ed326e7d00923cdc1cd6dd4f = $(`<div id="html_49a04e53ed326e7d00923cdc1cd6dd4f" style="width: 100.0%; height: 100.0%;">         <b>Rocco´s Wine & Dine</b><br>         Båthusgatan 15         </div>`)[0];
+                popup_5217ace180b847c71b579ba944f2ba50.setContent(html_49a04e53ed326e7d00923cdc1cd6dd4f);
+            
+        
+
+        marker_642dfde6059a0a36bacdf29d00dc074b.bindPopup(popup_5217ace180b847c71b579ba944f2ba50)
+        ;
+
+        
+    
+    
+            var marker_7afcf41d6b25256a4aa875821aa1c70e = L.marker(
+                [56.0622847, 12.7275148],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_42c1b721d6a5d6d16437f5556bf87277 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a2e3a562ad52be22885cf531baeaa4e4 = $(`<div id="html_a2e3a562ad52be22885cf531baeaa4e4" style="width: 100.0%; height: 100.0%;">         <b>Rodis Pizzeria</b><br>         Blåkullagatan 3         </div>`)[0];
+                popup_42c1b721d6a5d6d16437f5556bf87277.setContent(html_a2e3a562ad52be22885cf531baeaa4e4);
+            
+        
+
+        marker_7afcf41d6b25256a4aa875821aa1c70e.bindPopup(popup_42c1b721d6a5d6d16437f5556bf87277)
+        ;
+
+        
+    
+    
+            var marker_1aea5044ac7cc4f943bda5267167a943 = L.marker(
+                [56.0903302, 12.8300175],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_7b2d8c646251718787af7a39a1af7867 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d8b87aaeb91f8f50da776bba7d5f4a79 = $(`<div id="html_d8b87aaeb91f8f50da776bba7d5f4a79" style="width: 100.0%; height: 100.0%;">         <b>Rosendal Slott</b><br>         Rosendal 107         </div>`)[0];
+                popup_7b2d8c646251718787af7a39a1af7867.setContent(html_d8b87aaeb91f8f50da776bba7d5f4a79);
+            
+        
+
+        marker_1aea5044ac7cc4f943bda5267167a943.bindPopup(popup_7b2d8c646251718787af7a39a1af7867)
+        ;
+
+        
+    
+    
+            var marker_7e149b1f3ea1879f83ccea8af9b0d5e2 = L.marker(
+                [56.0501817, 12.7271419],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_1d268f36720011feebb791f6dcd94eb6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_253e25acfb8cc189da1d41390ed600f7 = $(`<div id="html_253e25acfb8cc189da1d41390ed600f7" style="width: 100.0%; height: 100.0%;">         <b>Rosengårdens pizzeria & restaurang</b><br>         Skaragatan 90         </div>`)[0];
+                popup_1d268f36720011feebb791f6dcd94eb6.setContent(html_253e25acfb8cc189da1d41390ed600f7);
+            
+        
+
+        marker_7e149b1f3ea1879f83ccea8af9b0d5e2.bindPopup(popup_1d268f36720011feebb791f6dcd94eb6)
+        ;
+
+        
+    
+    
+            var marker_756d1538ec73c95d81df2b060b7ada03 = L.marker(
+                [56.0507472, 12.6853024],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_81d0c03880d101ac4d99c73508076ed6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b308ad6b98403ccb8a78a8e80dfa842d = $(`<div id="html_b308ad6b98403ccb8a78a8e80dfa842d" style="width: 100.0%; height: 100.0%;">         <b>Roys Fisk o Servering</b><br>         Kajpromenaden 21         </div>`)[0];
+                popup_81d0c03880d101ac4d99c73508076ed6.setContent(html_b308ad6b98403ccb8a78a8e80dfa842d);
+            
+        
+
+        marker_756d1538ec73c95d81df2b060b7ada03.bindPopup(popup_81d0c03880d101ac4d99c73508076ed6)
+        ;
+
+        
+    
+    
+            var marker_8b2b60cde2c40e47970da0caa7b16b68 = L.marker(
+                [55.9663, 12.775],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_48d91b136e65507d4835792ba313c178 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_980b112bc8de031716c728caa40c547b = $(`<div id="html_980b112bc8de031716c728caa40c547b" style="width: 100.0%; height: 100.0%;">         <b>Rydebäcks Pizzeria</b><br>         Frösgatan 7         </div>`)[0];
+                popup_48d91b136e65507d4835792ba313c178.setContent(html_980b112bc8de031716c728caa40c547b);
+            
+        
+
+        marker_8b2b60cde2c40e47970da0caa7b16b68.bindPopup(popup_48d91b136e65507d4835792ba313c178)
+        ;
+
+        
+    
+    
+            var marker_328ebcd5d92f6f64ed05e625c70f0bc0 = L.marker(
+                [56.045201, 12.6977553],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_bdf11a7a8a7a9b2f292b010bd1e3c505 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cdfeb434a952e5ec9a665a73616bf766 = $(`<div id="html_cdfeb434a952e5ec9a665a73616bf766" style="width: 100.0%; height: 100.0%;">         <b>Röda Kvarn</b><br>         Karlsgatan 7         </div>`)[0];
+                popup_bdf11a7a8a7a9b2f292b010bd1e3c505.setContent(html_cdfeb434a952e5ec9a665a73616bf766);
+            
+        
+
+        marker_328ebcd5d92f6f64ed05e625c70f0bc0.bindPopup(popup_bdf11a7a8a7a9b2f292b010bd1e3c505)
+        ;
+
+        
+    
+    
+            var marker_da9042201ebb5239a94d3a3a137653ab = L.marker(
+                [56.0373522, 12.7024143],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_ea6b87f176def49f54ecf24b83f5ce7f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_08155e4d42862f534141c7da88e34c3c = $(`<div id="html_08155e4d42862f534141c7da88e34c3c" style="width: 100.0%; height: 100.0%;">         <b>Sams Bar</b><br>         Carl Krooks gata 50         </div>`)[0];
+                popup_ea6b87f176def49f54ecf24b83f5ce7f.setContent(html_08155e4d42862f534141c7da88e34c3c);
+            
+        
+
+        marker_da9042201ebb5239a94d3a3a137653ab.bindPopup(popup_ea6b87f176def49f54ecf24b83f5ce7f)
+        ;
+
+        
+    
+    
+            var marker_15e36cbda96063abb5827d3aca9345a9 = L.marker(
+                [56.041043, 12.6996601],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_a70215d07356476dc5e818954f302914 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a331f6d2b90dba23e97203b6870c02e2 = $(`<div id="html_a331f6d2b90dba23e97203b6870c02e2" style="width: 100.0%; height: 100.0%;">         <b>Scandic Go Gasverksgatan 11</b><br>         Gasverksgatan 11         </div>`)[0];
+                popup_a70215d07356476dc5e818954f302914.setContent(html_a331f6d2b90dba23e97203b6870c02e2);
+            
+        
+
+        marker_15e36cbda96063abb5827d3aca9345a9.bindPopup(popup_a70215d07356476dc5e818954f302914)
+        ;
+
+        
+    
+    
+            var marker_d49f088baaae15b1ce4dca40720ba12c = L.marker(
+                [56.0778544, 12.7295239],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_4fea07ad1de24e75772f44e091316772 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_52ab94c7da7ccd191e0538d411fd6fc3 = $(`<div id="html_52ab94c7da7ccd191e0538d411fd6fc3" style="width: 100.0%; height: 100.0%;">         <b>Scandic Hotel</b><br>         Florettgatan 41         </div>`)[0];
+                popup_4fea07ad1de24e75772f44e091316772.setContent(html_52ab94c7da7ccd191e0538d411fd6fc3);
+            
+        
+
+        marker_d49f088baaae15b1ce4dca40720ba12c.bindPopup(popup_4fea07ad1de24e75772f44e091316772)
+        ;
+
+        
+    
+    
+            var marker_16aad56c4265208544a879ed2510ecc5 = L.marker(
+                [56.042283, 12.6898271],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_29063a326bbfa343ea05bbefd48276da = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_902edb7d0d830f1c757b234fd35a54cb = $(`<div id="html_902edb7d0d830f1c757b234fd35a54cb" style="width: 100.0%; height: 100.0%;">         <b>Scandic Oceanhamnen</b><br>         Bröderna Pihls gränd 2         </div>`)[0];
+                popup_29063a326bbfa343ea05bbefd48276da.setContent(html_902edb7d0d830f1c757b234fd35a54cb);
+            
+        
+
+        marker_16aad56c4265208544a879ed2510ecc5.bindPopup(popup_29063a326bbfa343ea05bbefd48276da)
+        ;
+
+        
+    
+    
+            var marker_21ed0d1247c0b10aec87b6615dbd06a2 = L.marker(
+                [56.0454706, 12.6986322],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_2428342291f3ce21de80e9ac431684c4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fc19b98673711cdc12d0fe76378dc9ac = $(`<div id="html_fc19b98673711cdc12d0fe76378dc9ac" style="width: 100.0%; height: 100.0%;">         <b>Shark</b><br>         Södra storgatan 16         </div>`)[0];
+                popup_2428342291f3ce21de80e9ac431684c4.setContent(html_fc19b98673711cdc12d0fe76378dc9ac);
+            
+        
+
+        marker_21ed0d1247c0b10aec87b6615dbd06a2.bindPopup(popup_2428342291f3ce21de80e9ac431684c4)
+        ;
+
+        
+    
+    
+            var marker_1a8c88b96fcd3c7192d07b3fb2a5bae6 = L.marker(
+                [56.0557, 12.6827],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_870fc3bd5522abfbeb9de07a2f77d26e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f9fef3073e18296fc6bd438838526fec = $(`<div id="html_f9fef3073e18296fc6bd438838526fec" style="width: 100.0%; height: 100.0%;">         <b>Sillen & Makrillen</b><br>         Norra Gröningen 1         </div>`)[0];
+                popup_870fc3bd5522abfbeb9de07a2f77d26e.setContent(html_f9fef3073e18296fc6bd438838526fec);
+            
+        
+
+        marker_1a8c88b96fcd3c7192d07b3fb2a5bae6.bindPopup(popup_870fc3bd5522abfbeb9de07a2f77d26e)
+        ;
+
+        
+    
+    
+            var marker_6d63e83468c3cf90d6403a5aec0e4cca = L.marker(
+                [56.0493296, 12.6868078],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_3ce55f21348a32882ba321210d2374da = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f59a440373362d7b8744f5bc52fdff9c = $(`<div id="html_f59a440373362d7b8744f5bc52fdff9c" style="width: 100.0%; height: 100.0%;">         <b>Skonaren Nina</b><br>         Kajpromenaden         </div>`)[0];
+                popup_3ce55f21348a32882ba321210d2374da.setContent(html_f59a440373362d7b8744f5bc52fdff9c);
+            
+        
+
+        marker_6d63e83468c3cf90d6403a5aec0e4cca.bindPopup(popup_3ce55f21348a32882ba321210d2374da)
+        ;
+
+        
+    
+    
+            var marker_74ea85105351663b4ea5cf37397b809d = L.marker(
+                [56.0904, 12.8298],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_0e4e7f270f88af2c4ce6e87a7068fb63 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_22d3e524c5aab237e5b563295a9bb003 = $(`<div id="html_22d3e524c5aab237e5b563295a9bb003" style="width: 100.0%; height: 100.0%;">         <b>Small Britain</b><br>         Rosendals Slott - Kalvstallet, Rosendals         </div>`)[0];
+                popup_0e4e7f270f88af2c4ce6e87a7068fb63.setContent(html_22d3e524c5aab237e5b563295a9bb003);
+            
+        
+
+        marker_74ea85105351663b4ea5cf37397b809d.bindPopup(popup_0e4e7f270f88af2c4ce6e87a7068fb63)
+        ;
+
+        
+    
+    
+            var marker_cb1156f0bbc3917e2817cfa95a4225d5 = L.marker(
+                [56.0776126, 12.6646167],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_17111cbe39e8ce44ff451a729c69fc2f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6c24e17a8680114750ce9ca151a47e26 = $(`<div id="html_6c24e17a8680114750ce9ca151a47e26" style="width: 100.0%; height: 100.0%;">         <b>Sofiero Slott</b><br>         Sofierovägen 31         </div>`)[0];
+                popup_17111cbe39e8ce44ff451a729c69fc2f.setContent(html_6c24e17a8680114750ce9ca151a47e26);
+            
+        
+
+        marker_cb1156f0bbc3917e2817cfa95a4225d5.bindPopup(popup_17111cbe39e8ce44ff451a729c69fc2f)
+        ;
+
+        
+    
+    
+            var marker_6ff99da15004e38e073d99be2b3392ee = L.marker(
+                [56.0839018, 12.6596728],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_fd2d2d503c80aa062fcd34af61876460 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8b46ddcabae26589fd59e6a433d03851 = $(`<div id="html_8b46ddcabae26589fd59e6a433d03851" style="width: 100.0%; height: 100.0%;">         <b>Sofiero slottsrestaurang Orangeriet</b><br>         Sofierovägen 131         </div>`)[0];
+                popup_fd2d2d503c80aa062fcd34af61876460.setContent(html_8b46ddcabae26589fd59e6a433d03851);
+            
+        
+
+        marker_6ff99da15004e38e073d99be2b3392ee.bindPopup(popup_fd2d2d503c80aa062fcd34af61876460)
+        ;
+
+        
+    
+    
+            var marker_d6ee691d8de987e559678134cc82882b = L.marker(
+                [56.0671239, 12.7235458],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_b140e8dd028e769b1fab394b9555812b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a1c74234caeb3b13a4cdeb542a99e1df = $(`<div id="html_a1c74234caeb3b13a4cdeb542a99e1df" style="width: 100.0%; height: 100.0%;">         <b>Soho no.5</b><br>         Drottninghögsvägen 5         </div>`)[0];
+                popup_b140e8dd028e769b1fab394b9555812b.setContent(html_a1c74234caeb3b13a4cdeb542a99e1df);
+            
+        
+
+        marker_d6ee691d8de987e559678134cc82882b.bindPopup(popup_b140e8dd028e769b1fab394b9555812b)
+        ;
+
+        
+    
+    
+            var marker_cdb55168dc255a633e4a6104ad7119d1 = L.marker(
+                [56.0516504, 12.6881329],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_d71cfcd5662909a30f8ce7a196c2a642 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c3f46f39fb234565982d6d0d77fa46c = $(`<div id="html_5c3f46f39fb234565982d6d0d77fa46c" style="width: 100.0%; height: 100.0%;">         <b>Sorella</b><br>         Drottninggatan 88         </div>`)[0];
+                popup_d71cfcd5662909a30f8ce7a196c2a642.setContent(html_5c3f46f39fb234565982d6d0d77fa46c);
+            
+        
+
+        marker_cdb55168dc255a633e4a6104ad7119d1.bindPopup(popup_d71cfcd5662909a30f8ce7a196c2a642)
+        ;
+
+        
+    
+    
+            var marker_7b774e08041375ce0523b3d09dcaca75 = L.marker(
+                [56.0493337, 12.6911833],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_7ad019d498ff83a9c656e4110ced9f33 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_67546a5c74cbb641c24863626c1ad880 = $(`<div id="html_67546a5c74cbb641c24863626c1ad880" style="width: 100.0%; height: 100.0%;">         <b>Spectrum</b><br>         Kullagatan 47         </div>`)[0];
+                popup_7ad019d498ff83a9c656e4110ced9f33.setContent(html_67546a5c74cbb641c24863626c1ad880);
+            
+        
+
+        marker_7b774e08041375ce0523b3d09dcaca75.bindPopup(popup_7ad019d498ff83a9c656e4110ced9f33)
+        ;
+
+        
+    
+    
+            var marker_b353ca95d33ea292137ff0dfc6a6b949 = L.marker(
+                [56.0409634, 12.7024402],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_0899b07db531a7764687e7fc6f297cb2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c7b85d013780376e3a6363bd43ccee4f = $(`<div id="html_c7b85d013780376e3a6363bd43ccee4f" style="width: 100.0%; height: 100.0%;">         <b>Spelpalatset</b><br>         Gasverksgatan 22         </div>`)[0];
+                popup_0899b07db531a7764687e7fc6f297cb2.setContent(html_c7b85d013780376e3a6363bd43ccee4f);
+            
+        
+
+        marker_b353ca95d33ea292137ff0dfc6a6b949.bindPopup(popup_0899b07db531a7764687e7fc6f297cb2)
+        ;
+
+        
+    
+    
+            var marker_48fc6c65737c0d7578228b138d864d71 = L.marker(
+                [56.0724385, 12.6685304],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_0eddbd21624c8aac4ecd4d17a58f4aee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_75dd5e9ec9df09108be3c9cec15f7dac = $(`<div id="html_75dd5e9ec9df09108be3c9cec15f7dac" style="width: 100.0%; height: 100.0%;">         <b>Strandhuset</b><br>         Drottninggatan 251         </div>`)[0];
+                popup_0eddbd21624c8aac4ecd4d17a58f4aee.setContent(html_75dd5e9ec9df09108be3c9cec15f7dac);
+            
+        
+
+        marker_48fc6c65737c0d7578228b138d864d71.bindPopup(popup_0eddbd21624c8aac4ecd4d17a58f4aee)
+        ;
+
+        
+    
+    
+            var marker_03c018046fc85779cfb71509c9ef4fba = L.marker(
+                [56.0482727, 12.691432],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_9a62241b557fc98b74f987250a9e6c64 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0d8d58f9d9c507095dda4e7469b3fe37 = $(`<div id="html_0d8d58f9d9c507095dda4e7469b3fe37" style="width: 100.0%; height: 100.0%;">         <b>Stubinen</b><br>         Drottninggatan 30         </div>`)[0];
+                popup_9a62241b557fc98b74f987250a9e6c64.setContent(html_0d8d58f9d9c507095dda4e7469b3fe37);
+            
+        
+
+        marker_03c018046fc85779cfb71509c9ef4fba.bindPopup(popup_9a62241b557fc98b74f987250a9e6c64)
+        ;
+
+        
+    
+    
+            var marker_5010154ef7d1c89f86ab804438f84d3a = L.marker(
+                [55.9873601, 12.7579859],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_cde6056ef3989a7ee1776b5e5972a94f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d295c867e363daacce0085ffb71d3e5f = $(`<div id="html_d295c867e363daacce0085ffb71d3e5f" style="width: 100.0%; height: 100.0%;">         <b>Sundsgårdens Folkhögskola</b><br>         Örbyvägen 10         </div>`)[0];
+                popup_cde6056ef3989a7ee1776b5e5972a94f.setContent(html_d295c867e363daacce0085ffb71d3e5f);
+            
+        
+
+        marker_5010154ef7d1c89f86ab804438f84d3a.bindPopup(popup_cde6056ef3989a7ee1776b5e5972a94f)
+        ;
+
+        
+    
+    
+            var marker_34ea96f8073f994a8ccbbdcdbf5904d7 = L.marker(
+                [56.0555756, 12.6945739],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_c5bddc96bd2fedad34ade37aba9e4c80 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_88292c5026a2f5751f391107402497f1 = $(`<div id="html_88292c5026a2f5751f391107402497f1" style="width: 100.0%; height: 100.0%;">         <b>Suriyo Thai</b><br>         Pålsjögatan 8         </div>`)[0];
+                popup_c5bddc96bd2fedad34ade37aba9e4c80.setContent(html_88292c5026a2f5751f391107402497f1);
+            
+        
+
+        marker_34ea96f8073f994a8ccbbdcdbf5904d7.bindPopup(popup_c5bddc96bd2fedad34ade37aba9e4c80)
+        ;
+
+        
+    
+    
+            var marker_dde396802bedb0d802781b3907fd9424 = L.marker(
+                [56.0411335, 12.7020106],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_e4ccdf4260062ef270f980a970b3654f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a4029fd43a98a1e23ea7d4e8f6cea14d = $(`<div id="html_a4029fd43a98a1e23ea7d4e8f6cea14d" style="width: 100.0%; height: 100.0%;">         <b>Taco Bar Helsingborg</b><br>         Södergatan 11         </div>`)[0];
+                popup_e4ccdf4260062ef270f980a970b3654f.setContent(html_a4029fd43a98a1e23ea7d4e8f6cea14d);
+            
+        
+
+        marker_dde396802bedb0d802781b3907fd9424.bindPopup(popup_e4ccdf4260062ef270f980a970b3654f)
+        ;
+
+        
+    
+    
+            var marker_15b5eec46916f4dfca07c5aca9b002b8 = L.marker(
+                [56.0479961, 12.6916296],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_296d1185458c131fcb31123ada531796 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d1389d5cb93b87024bfb3cebdc01923f = $(`<div id="html_d1389d5cb93b87024bfb3cebdc01923f" style="width: 100.0%; height: 100.0%;">         <b>Taj Mahal</b><br>         Drottninggatan 24         </div>`)[0];
+                popup_296d1185458c131fcb31123ada531796.setContent(html_d1389d5cb93b87024bfb3cebdc01923f);
+            
+        
+
+        marker_15b5eec46916f4dfca07c5aca9b002b8.bindPopup(popup_296d1185458c131fcb31123ada531796)
+        ;
+
+        
+    
+    
+            var marker_2911702f6d83b42e35902c832024917e = L.marker(
+                [56.0460186, 12.6967172],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_d79b173f808bfe3dd25acc1d1f3e70af = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4fe14ab03fd9e28ecda08dcbeea0db66 = $(`<div id="html_4fe14ab03fd9e28ecda08dcbeea0db66" style="width: 100.0%; height: 100.0%;">         <b>Takami Sushi</b><br>         Södra Kyrkogatan 20         </div>`)[0];
+                popup_d79b173f808bfe3dd25acc1d1f3e70af.setContent(html_4fe14ab03fd9e28ecda08dcbeea0db66);
+            
+        
+
+        marker_2911702f6d83b42e35902c832024917e.bindPopup(popup_d79b173f808bfe3dd25acc1d1f3e70af)
+        ;
+
+        
+    
+    
+            var marker_68c68cf611316c3024cfb51468f54932 = L.marker(
+                [56.0461108, 12.6955139],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_a87bcf6c89d5942cc79375ed0e8663d7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_70935f7a72c00fb80399f01a4514782c = $(`<div id="html_70935f7a72c00fb80399f01a4514782c" style="width: 100.0%; height: 100.0%;">         <b>Tapasbar La Venta</b><br>         Mariagatan 8         </div>`)[0];
+                popup_a87bcf6c89d5942cc79375ed0e8663d7.setContent(html_70935f7a72c00fb80399f01a4514782c);
+            
+        
+
+        marker_68c68cf611316c3024cfb51468f54932.bindPopup(popup_a87bcf6c89d5942cc79375ed0e8663d7)
+        ;
+
+        
+    
+    
+            var marker_57b8c80cd29caf0f50849b896d3756b3 = L.marker(
+                [56.0482015, 12.6942519],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_3e00a99f806f8fcd7bdb9595c08a71c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_15f782843ba1a0d395ae3af19cc6106a = $(`<div id="html_15f782843ba1a0d395ae3af19cc6106a" style="width: 100.0%; height: 100.0%;">         <b>Telegrafen</b><br>         Norra Storgatan 14         </div>`)[0];
+                popup_3e00a99f806f8fcd7bdb9595c08a71c8.setContent(html_15f782843ba1a0d395ae3af19cc6106a);
+            
+        
+
+        marker_57b8c80cd29caf0f50849b896d3756b3.bindPopup(popup_3e00a99f806f8fcd7bdb9595c08a71c8)
+        ;
+
+        
+    
+    
+            var marker_43ee8230d64c07292814053ea14ca6fa = L.marker(
+                [56.0391091, 12.7023573],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_eb3390d1c6b6ed1364947ca7d2b92436 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_75a3d16e4f403571219ec7800c4f7793 = $(`<div id="html_75a3d16e4f403571219ec7800c4f7793" style="width: 100.0%; height: 100.0%;">         <b>Teo´s Kök & Bar</b><br>         Södergatan 60         </div>`)[0];
+                popup_eb3390d1c6b6ed1364947ca7d2b92436.setContent(html_75a3d16e4f403571219ec7800c4f7793);
+            
+        
+
+        marker_43ee8230d64c07292814053ea14ca6fa.bindPopup(popup_eb3390d1c6b6ed1364947ca7d2b92436)
+        ;
+
+        
+    
+    
+            var marker_cb2dcb6007fab31ed4e676c3efb79092 = L.marker(
+                [56.0439023, 12.6970813],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_14f928fb72fbc9df3e3a8120f87c138f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dba32145a7cc048ee60915a287aebf4a = $(`<div id="html_dba32145a7cc048ee60915a287aebf4a" style="width: 100.0%; height: 100.0%;">         <b>Thai Corner</b><br>         Bruksgatan 34         </div>`)[0];
+                popup_14f928fb72fbc9df3e3a8120f87c138f.setContent(html_dba32145a7cc048ee60915a287aebf4a);
+            
+        
+
+        marker_cb2dcb6007fab31ed4e676c3efb79092.bindPopup(popup_14f928fb72fbc9df3e3a8120f87c138f)
+        ;
+
+        
+    
+    
+            var marker_75eb67c28308411015dd12abdafc901f = L.marker(
+                [56.0653549, 12.7005411],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_67222a18b1f994ed5bc6403a6bf47689 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_84f4d81bfd9c254096e72ab3d828981e = $(`<div id="html_84f4d81bfd9c254096e72ab3d828981e" style="width: 100.0%; height: 100.0%;">         <b>Thaikrogen</b><br>         Kurirgatan 1         </div>`)[0];
+                popup_67222a18b1f994ed5bc6403a6bf47689.setContent(html_84f4d81bfd9c254096e72ab3d828981e);
+            
+        
+
+        marker_75eb67c28308411015dd12abdafc901f.bindPopup(popup_67222a18b1f994ed5bc6403a6bf47689)
+        ;
+
+        
+    
+    
+            var marker_07e91b86082c2ae811494df5f8a08f4a = L.marker(
+                [56.0475202, 12.6934536],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_95e8eb91317467ac3f20f819a55e4a59 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0d6f278a38b653cb8175a989838dea3c = $(`<div id="html_0d6f278a38b653cb8175a989838dea3c" style="width: 100.0%; height: 100.0%;">         <b>The Filthy Fisherman</b><br>         Kolmätaregränden 8         </div>`)[0];
+                popup_95e8eb91317467ac3f20f819a55e4a59.setContent(html_0d6f278a38b653cb8175a989838dea3c);
+            
+        
+
+        marker_07e91b86082c2ae811494df5f8a08f4a.bindPopup(popup_95e8eb91317467ac3f20f819a55e4a59)
+        ;
+
+        
+    
+    
+            var marker_df79f31a11efe50180f80669b2b5971c = L.marker(
+                [56.0503777, 12.6911989],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_d0936c7ff14ceba5915427b438437d94 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_de074621cef319e89c78cd0f726efcfd = $(`<div id="html_de074621cef319e89c78cd0f726efcfd" style="width: 100.0%; height: 100.0%;">         <b>The South Indian</b><br>         S:t Jörgens plats 8         </div>`)[0];
+                popup_d0936c7ff14ceba5915427b438437d94.setContent(html_de074621cef319e89c78cd0f726efcfd);
+            
+        
+
+        marker_df79f31a11efe50180f80669b2b5971c.bindPopup(popup_d0936c7ff14ceba5915427b438437d94)
+        ;
+
+        
+    
+    
+            var marker_a9580b423fb8ccc6b97df2fbdd3e6889 = L.marker(
+                [56.04534, 12.69066],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_853f7103e615bb86fbc842fa4a3236e5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_02f209e9db42331090f4de795ff722cf = $(`<div id="html_02f209e9db42331090f4de795ff722cf" style="width: 100.0%; height: 100.0%;">         <b>The Tivoli</b><br>         Köpenhamnskajen 1         </div>`)[0];
+                popup_853f7103e615bb86fbc842fa4a3236e5.setContent(html_02f209e9db42331090f4de795ff722cf);
+            
+        
+
+        marker_a9580b423fb8ccc6b97df2fbdd3e6889.bindPopup(popup_853f7103e615bb86fbc842fa4a3236e5)
+        ;
+
+        
+    
+    
+            var marker_17a0d4a5b3da2458a5a100824ff3e22f = L.marker(
+                [56.0471492, 12.6961524],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_14234e55af1ac9e9ada23f4147a5c95d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4662d8bdc6adf7258fcbc4a0eee0a0a2 = $(`<div id="html_4662d8bdc6adf7258fcbc4a0eee0a0a2" style="width: 100.0%; height: 100.0%;">         <b>The Vault Hotel</b><br>         Stortorget 20         </div>`)[0];
+                popup_14234e55af1ac9e9ada23f4147a5c95d.setContent(html_4662d8bdc6adf7258fcbc4a0eee0a0a2);
+            
+        
+
+        marker_17a0d4a5b3da2458a5a100824ff3e22f.bindPopup(popup_14234e55af1ac9e9ada23f4147a5c95d)
+        ;
+
+        
+    
+    
+            var marker_383c412659feb10fdc04ed655d1d97c2 = L.marker(
+                [56.0484377, 12.6875493],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_fdebaf2cd10598e7f1a31b681d187764 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_307f55cc251a2df557b8a6c77eb47ab8 = $(`<div id="html_307f55cc251a2df557b8a6c77eb47ab8" style="width: 100.0%; height: 100.0%;">         <b>Timjan & Tång</b><br>         Kajpromenaden 6         </div>`)[0];
+                popup_fdebaf2cd10598e7f1a31b681d187764.setContent(html_307f55cc251a2df557b8a6c77eb47ab8);
+            
+        
+
+        marker_383c412659feb10fdc04ed655d1d97c2.bindPopup(popup_fdebaf2cd10598e7f1a31b681d187764)
+        ;
+
+        
+    
+    
+            var marker_6f57fe0991399bf374b102f127fdbf3f = L.marker(
+                [56.048593, 12.6901805],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_8a6a5c5e5452b00d9ca4a3f44145d8a8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_922622314f50d3902cace010194b3fb5 = $(`<div id="html_922622314f50d3902cace010194b3fb5" style="width: 100.0%; height: 100.0%;">         <b>Torget</b><br>         Sundstorget 7         </div>`)[0];
+                popup_8a6a5c5e5452b00d9ca4a3f44145d8a8.setContent(html_922622314f50d3902cace010194b3fb5);
+            
+        
+
+        marker_6f57fe0991399bf374b102f127fdbf3f.bindPopup(popup_8a6a5c5e5452b00d9ca4a3f44145d8a8)
+        ;
+
+        
+    
+    
+            var marker_512a9b1e360cc16514e86a1fd05d812a = L.marker(
+                [56.0486625, 12.6978846],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_eb2ed6b77122776066ebbc27b45b1af6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c5e93fc8e8e1a6150143212226d0e445 = $(`<div id="html_c5e93fc8e8e1a6150143212226d0e445" style="width: 100.0%; height: 100.0%;">         <b>Trappan 1899</b><br>         Slottshagsgatan 1         </div>`)[0];
+                popup_eb2ed6b77122776066ebbc27b45b1af6.setContent(html_c5e93fc8e8e1a6150143212226d0e445);
+            
+        
+
+        marker_512a9b1e360cc16514e86a1fd05d812a.bindPopup(popup_eb2ed6b77122776066ebbc27b45b1af6)
+        ;
+
+        
+    
+    
+            var marker_60e7f6a3f1128822d5237f653fe6c5ca = L.marker(
+                [55.9989769, 12.74095],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_bf3aabde65d1f2c1123fe426f3e3d0b2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_49f562ef46ada0cd8585196482d7cf52 = $(`<div id="html_49f562ef46ada0cd8585196482d7cf52" style="width: 100.0%; height: 100.0%;">         <b>Trivas på Råå</b><br>         Rååvägen 20         </div>`)[0];
+                popup_bf3aabde65d1f2c1123fe426f3e3d0b2.setContent(html_49f562ef46ada0cd8585196482d7cf52);
+            
+        
+
+        marker_60e7f6a3f1128822d5237f653fe6c5ca.bindPopup(popup_bf3aabde65d1f2c1123fe426f3e3d0b2)
+        ;
+
+        
+    
+    
+            var marker_19273b45246e0044bef20fd1648201e2 = L.marker(
+                [56.0457685, 12.6862622],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_9c71851a4f3e4a45dc6a15761d1477d7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4046bb4c335236d0e95aea16676c1e21 = $(`<div id="html_4046bb4c335236d0e95aea16676c1e21" style="width: 100.0%; height: 100.0%;">         <b>Troppan</b><br>         Parapeten 1         </div>`)[0];
+                popup_9c71851a4f3e4a45dc6a15761d1477d7.setContent(html_4046bb4c335236d0e95aea16676c1e21);
+            
+        
+
+        marker_19273b45246e0044bef20fd1648201e2.bindPopup(popup_9c71851a4f3e4a45dc6a15761d1477d7)
+        ;
+
+        
+    
+    
+            var marker_e2d072a2ea22d3b12c0e69904a441315 = L.marker(
+                [56.0551489, 12.6832459],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_5230a4b24057ee483bad7dc088981b2f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_43ae02b5dffe77d992a226d86c0c2537 = $(`<div id="html_43ae02b5dffe77d992a226d86c0c2537" style="width: 100.0%; height: 100.0%;">         <b>Tågvagnen</b><br>         Gröningen         </div>`)[0];
+                popup_5230a4b24057ee483bad7dc088981b2f.setContent(html_43ae02b5dffe77d992a226d86c0c2537);
+            
+        
+
+        marker_e2d072a2ea22d3b12c0e69904a441315.bindPopup(popup_5230a4b24057ee483bad7dc088981b2f)
+        ;
+
+        
+    
+    
+            var marker_18f9cefc5368b7a0d79ad3d02ede552e = L.marker(
+                [56.0474178, 12.6959072],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_b6c1fef30d4cd625f33f111c46a378b4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1a67636bde254b508ff67998755b8ee3 = $(`<div id="html_1a67636bde254b508ff67998755b8ee3" style="width: 100.0%; height: 100.0%;">         <b>Utposten</b><br>         Stortorget 17, Box 1121         </div>`)[0];
+                popup_b6c1fef30d4cd625f33f111c46a378b4.setContent(html_1a67636bde254b508ff67998755b8ee3);
+            
+        
+
+        marker_18f9cefc5368b7a0d79ad3d02ede552e.bindPopup(popup_b6c1fef30d4cd625f33f111c46a378b4)
+        ;
+
+        
+    
+    
+            var marker_4823a6bcd2e0250f7b6aca5ba16b05bd = L.marker(
+                [56.0491891, 12.6870382],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_83918bbcdc7485c774f82342a08ceb12 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e473b55e14702f04d50c52ed2c6713fc = $(`<div id="html_e473b55e14702f04d50c52ed2c6713fc" style="width: 100.0%; height: 100.0%;">         <b>Utsikten</b><br>         Kajpromenaden 14         </div>`)[0];
+                popup_83918bbcdc7485c774f82342a08ceb12.setContent(html_e473b55e14702f04d50c52ed2c6713fc);
+            
+        
+
+        marker_4823a6bcd2e0250f7b6aca5ba16b05bd.bindPopup(popup_83918bbcdc7485c774f82342a08ceb12)
+        ;
+
+        
+    
+    
+            var marker_4c081115dd1bfb8b5d165b8ad6df08dc = L.marker(
+                [56.0344413, 12.7072573],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_f8911841a48d9dacba35e7b6424c464c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dd7596dc1382bfefe60416d16d98ebe4 = $(`<div id="html_dd7596dc1382bfefe60416d16d98ebe4" style="width: 100.0%; height: 100.0%;">         <b>Vagnhall 16</b><br>         Gåsebäcksvägen 2         </div>`)[0];
+                popup_f8911841a48d9dacba35e7b6424c464c.setContent(html_dd7596dc1382bfefe60416d16d98ebe4);
+            
+        
+
+        marker_4c081115dd1bfb8b5d165b8ad6df08dc.bindPopup(popup_f8911841a48d9dacba35e7b6424c464c)
+        ;
+
+        
+    
+    
+            var marker_c1229d72005311533bd06dfb85690135 = L.marker(
+                [56.058, 12.7885],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_19d3780ee670760c1f7a8070ce390f9d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e14e3311da22644c35d7eec059f79e85 = $(`<div id="html_e14e3311da22644c35d7eec059f79e85" style="width: 100.0%; height: 100.0%;">         <b>Vasatorp Golfrestaurang</b><br>         Vasatorpallén 54         </div>`)[0];
+                popup_19d3780ee670760c1f7a8070ce390f9d.setContent(html_e14e3311da22644c35d7eec059f79e85);
+            
+        
+
+        marker_c1229d72005311533bd06dfb85690135.bindPopup(popup_19d3780ee670760c1f7a8070ce390f9d)
+        ;
+
+        
+    
+    
+            var marker_db4bec57500c19e946842d6e7106a528 = L.marker(
+                [56.0472716, 12.6925039],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_7a009ae933d503960c4c2bc8718e145a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_beb53d0fdf65fbbb4b4a51edddaacac3 = $(`<div id="html_beb53d0fdf65fbbb4b4a51edddaacac3" style="width: 100.0%; height: 100.0%;">         <b>Waynes Coffee</b><br>         Rådhustorget 12         </div>`)[0];
+                popup_7a009ae933d503960c4c2bc8718e145a.setContent(html_beb53d0fdf65fbbb4b4a51edddaacac3);
+            
+        
+
+        marker_db4bec57500c19e946842d6e7106a528.bindPopup(popup_7a009ae933d503960c4c2bc8718e145a)
+        ;
+
+        
+    
+    
+            var marker_72b7a3492f094ae5adad0b37f0ae86a9 = L.marker(
+                [56.0460779, 12.6968426],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_584644e186d940972aef8c18b69d43b1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f2ce0b1e04005db262c56d6a20310cf4 = $(`<div id="html_f2ce0b1e04005db262c56d6a20310cf4" style="width: 100.0%; height: 100.0%;">         <b>Ved By Maria</b><br>         Södra kyrkogatan 22         </div>`)[0];
+                popup_584644e186d940972aef8c18b69d43b1.setContent(html_f2ce0b1e04005db262c56d6a20310cf4);
+            
+        
+
+        marker_72b7a3492f094ae5adad0b37f0ae86a9.bindPopup(popup_584644e186d940972aef8c18b69d43b1)
+        ;
+
+        
+    
+    
+            var marker_7e761cdbb1992f6b3c730ba3708eea1f = L.marker(
+                [56.0435149, 12.6963418],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_0b67bd155970563c243daea259463e64 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_da073e7ddbef3bfc80281d9896abcedd = $(`<div id="html_da073e7ddbef3bfc80281d9896abcedd" style="width: 100.0%; height: 100.0%;">         <b>Vegeriet</b><br>         Järnvägsgatan 25         </div>`)[0];
+                popup_0b67bd155970563c243daea259463e64.setContent(html_da073e7ddbef3bfc80281d9896abcedd);
+            
+        
+
+        marker_7e761cdbb1992f6b3c730ba3708eea1f.bindPopup(popup_0b67bd155970563c243daea259463e64)
+        ;
+
+        
+    
+    
+            var marker_ce10270a0069c1b44df99f4359345d9c = L.marker(
+                [56.1062362, 12.7486172],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_33d7c80eef2cde15e7905940943b4283 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6030f910e3842679c0263e9de81b8f8f = $(`<div id="html_6030f910e3842679c0263e9de81b8f8f" style="width: 100.0%; height: 100.0%;">         <b>Venezia Pizzeria</b><br>         Centralgatan 10         </div>`)[0];
+                popup_33d7c80eef2cde15e7905940943b4283.setContent(html_6030f910e3842679c0263e9de81b8f8f);
+            
+        
+
+        marker_ce10270a0069c1b44df99f4359345d9c.bindPopup(popup_33d7c80eef2cde15e7905940943b4283)
+        ;
+
+        
+    
+    
+            var marker_fc927ad62b574448fbb65efa42dd4377 = L.marker(
+                [56.041028, 12.700264],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_8d487553b984fbad0e16d9d04270a5a0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c77a59f896ab089e26c5043d2bbb79a3 = $(`<div id="html_c77a59f896ab089e26c5043d2bbb79a3" style="width: 100.0%; height: 100.0%;">         <b>Viking bar</b><br>         Gasverksgatan 13         </div>`)[0];
+                popup_8d487553b984fbad0e16d9d04270a5a0.setContent(html_c77a59f896ab089e26c5043d2bbb79a3);
+            
+        
+
+        marker_fc927ad62b574448fbb65efa42dd4377.bindPopup(popup_8d487553b984fbad0e16d9d04270a5a0)
+        ;
+
+        
+    
+    
+            var marker_78dbe104bd4fdafe2d4aa63e3e2b54f7 = L.marker(
+                [56.0709, 12.6744],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_d4bf63295d8e8541c2fc8d014752fe3d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_256381973dc0fd1f70995f254716f5e4 = $(`<div id="html_256381973dc0fd1f70995f254716f5e4" style="width: 100.0%; height: 100.0%;">         <b>Villa Thalassa</b><br>         Dag Hamarskjölds Väg 117         </div>`)[0];
+                popup_d4bf63295d8e8541c2fc8d014752fe3d.setContent(html_256381973dc0fd1f70995f254716f5e4);
+            
+        
+
+        marker_78dbe104bd4fdafe2d4aa63e3e2b54f7.bindPopup(popup_d4bf63295d8e8541c2fc8d014752fe3d)
+        ;
+
+        
+    
+    
+            var marker_99bff67421b5694bc2fd8cc74d68a4e1 = L.marker(
+                [56.0205141, 12.7513244],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_fb9a5c2e7f0061c7ee516422e223ae00 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c2117772835207b434041847f4de3ab = $(`<div id="html_1c2117772835207b434041847f4de3ab" style="width: 100.0%; height: 100.0%;">         <b>Wok Express</b><br>         Södra Brunnsvägen 57         </div>`)[0];
+                popup_fb9a5c2e7f0061c7ee516422e223ae00.setContent(html_1c2117772835207b434041847f4de3ab);
+            
+        
+
+        marker_99bff67421b5694bc2fd8cc74d68a4e1.bindPopup(popup_fb9a5c2e7f0061c7ee516422e223ae00)
+        ;
+
+        
+    
+    
+            var marker_9c40d3db19d38499f36143dd52086e06 = L.marker(
+                [56.0481092, 12.6877849],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_956fbdca482e1b142e844a14d480d37c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fdb402128ebb07e81c8da71fe8c82a06 = $(`<div id="html_fdb402128ebb07e81c8da71fe8c82a06" style="width: 100.0%; height: 100.0%;">         <b>YA-HA Kök & Bar</b><br>         Kajpromenaden 2         </div>`)[0];
+                popup_956fbdca482e1b142e844a14d480d37c.setContent(html_fdb402128ebb07e81c8da71fe8c82a06);
+            
+        
+
+        marker_9c40d3db19d38499f36143dd52086e06.bindPopup(popup_956fbdca482e1b142e844a14d480d37c)
+        ;
+
+        
+    
+    
+            var marker_50552bcd8b4ad503aa877df7a75f74ef = L.marker(
+                [56.0407438, 12.7013723],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_ea7baf04ad6acab4fee492e1da96cd7d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_68f91bc078781b9eb51188df446e52bf = $(`<div id="html_68f91bc078781b9eb51188df446e52bf" style="width: 100.0%; height: 100.0%;">         <b>Yammi Söder</b><br>         Södergatan 30         </div>`)[0];
+                popup_ea7baf04ad6acab4fee492e1da96cd7d.setContent(html_68f91bc078781b9eb51188df446e52bf);
+            
+        
+
+        marker_50552bcd8b4ad503aa877df7a75f74ef.bindPopup(popup_ea7baf04ad6acab4fee492e1da96cd7d)
+        ;
+
+        
+    
+    
+            var marker_efdf6b6f6c2ea9faa606b09ceb90dedd = L.marker(
+                [56.0410681, 12.7008051],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_ab08f49b5ab26c1b528b43211a4460b4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f7378e44775f7f2d5607c245b297ff2f = $(`<div id="html_f7378e44775f7f2d5607c245b297ff2f" style="width: 100.0%; height: 100.0%;">         <b>Yazhou</b><br>         Gasverksgatan 15         </div>`)[0];
+                popup_ab08f49b5ab26c1b528b43211a4460b4.setContent(html_f7378e44775f7f2d5607c245b297ff2f);
+            
+        
+
+        marker_efdf6b6f6c2ea9faa606b09ceb90dedd.bindPopup(popup_ab08f49b5ab26c1b528b43211a4460b4)
+        ;
+
+        
+    
+    
+            var marker_5e764231cec745a73cb10c8d5e5d3395 = L.marker(
+                [56.0464663, 12.6954498],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_4e600e2c67e3afd797b3af969a1fb9fa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b7a276500a37cf55e6b00e70a87fcfdc = $(`<div id="html_b7a276500a37cf55e6b00e70a87fcfdc" style="width: 100.0%; height: 100.0%;">         <b>Zoom Bar & Restaurang</b><br>         Norra Kyrkogatan 15         </div>`)[0];
+                popup_4e600e2c67e3afd797b3af969a1fb9fa.setContent(html_b7a276500a37cf55e6b00e70a87fcfdc);
+            
+        
+
+        marker_5e764231cec745a73cb10c8d5e5d3395.bindPopup(popup_4e600e2c67e3afd797b3af969a1fb9fa)
+        ;
+
+        
+    
+    
+            var marker_8b9616219c8c609a00ccf8fe39439f76 = L.marker(
+                [56.0446129, 12.697122],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_849f07a2d3f14078901da6bd0be4db91 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8010976158f8f3b18b27f66092d274c5 = $(`<div id="html_8010976158f8f3b18b27f66092d274c5" style="width: 100.0%; height: 100.0%;">         <b>Zushi Helsingborg</b><br>         Karlsgatan 1A         </div>`)[0];
+                popup_849f07a2d3f14078901da6bd0be4db91.setContent(html_8010976158f8f3b18b27f66092d274c5);
+            
+        
+
+        marker_8b9616219c8c609a00ccf8fe39439f76.bindPopup(popup_849f07a2d3f14078901da6bd0be4db91)
+        ;
+
+        
+    
+    
+            var marker_5577fd4f255fe65a6e6823b0d8068ac1 = L.marker(
+                [56.0408159, 12.6914488],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_0c66c037df359ca3f67ac0f806f1b338 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cf8e5275337d1d7e1759ad58d7f67d72 = $(`<div id="html_cf8e5275337d1d7e1759ad58d7f67d72" style="width: 100.0%; height: 100.0%;">         <b>Zushi Ocean</b><br>         Oceankajen 2         </div>`)[0];
+                popup_0c66c037df359ca3f67ac0f806f1b338.setContent(html_cf8e5275337d1d7e1759ad58d7f67d72);
+            
+        
+
+        marker_5577fd4f255fe65a6e6823b0d8068ac1.bindPopup(popup_0c66c037df359ca3f67ac0f806f1b338)
+        ;
+
+        
+    
+    
+            var marker_d97df1d447cbc83ff768945b9732e38d = L.marker(
+                [56.04878, 12.6914654],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_a383fb24eac0776b44f471e1931dbc53 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a1d4dc1322f0b0a07d52146dfcb8abd5 = $(`<div id="html_a1d4dc1322f0b0a07d52146dfcb8abd5" style="width: 100.0%; height: 100.0%;">         <b>Ålgrändens Ost & Deli</b><br>         Ålgränden 6         </div>`)[0];
+                popup_a383fb24eac0776b44f471e1931dbc53.setContent(html_a1d4dc1322f0b0a07d52146dfcb8abd5);
+            
+        
+
+        marker_d97df1d447cbc83ff768945b9732e38d.bindPopup(popup_a383fb24eac0776b44f471e1931dbc53)
+        ;
+
+        
+    
+    
+            var marker_c677aa2950035f2773ab8bfcf5082652 = L.marker(
+                [56.0668308, 12.7062828],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_36633630f25b9448039e6dadf5e9aeb0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0bb3081a54cb0d335701b06d0783a465 = $(`<div id="html_0bb3081a54cb0d335701b06d0783a465" style="width: 100.0%; height: 100.0%;">         <b>Åliven Helsingborg</b><br>         Kullavägen 57         </div>`)[0];
+                popup_36633630f25b9448039e6dadf5e9aeb0.setContent(html_0bb3081a54cb0d335701b06d0783a465);
+            
+        
+
+        marker_c677aa2950035f2773ab8bfcf5082652.bindPopup(popup_36633630f25b9448039e6dadf5e9aeb0)
+        ;
+
+        
+    
+    
+            var marker_42debacf1428b21de9e0ac5a332b168b = L.marker(
+                [56.1031357, 12.7424362],
+                {
+}
+            ).addTo(map_e5486d75f231db24b9a52b7a033da033);
+        
+    
+        var popup_9d6dfd247f9ca8a67883030f02919e60 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_40676292e25eb32fcb8fe2448f899761 = $(`<div id="html_40676292e25eb32fcb8fe2448f899761" style="width: 100.0%; height: 100.0%;">         <b>Ödåkra Brygghus</b><br>         Fabriksgatan 2         </div>`)[0];
+                popup_9d6dfd247f9ca8a67883030f02919e60.setContent(html_40676292e25eb32fcb8fe2448f899761);
+            
+        
+
+        marker_42debacf1428b21de9e0ac5a332b168b.bindPopup(popup_9d6dfd247f9ca8a67883030f02919e60)
+        ;
+
+        
+    
+</script>
+</html>
