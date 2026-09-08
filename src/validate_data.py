@@ -2,7 +2,7 @@ from pathlib import Path
 import logging
 import pandas as pd
 
-from logging_config import configure_logging
+from src.logging_config import configure_logging
 
 logger = logging.getLogger("validate_data")
 
