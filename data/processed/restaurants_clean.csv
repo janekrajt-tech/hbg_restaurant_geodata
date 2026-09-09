@@ -1,4 +1,4 @@
-name,address,Serveringstider
+name,address,serving_hours
 Amore Fantasia,Norra Storgatan 1,11:30—01:00 11:30—00:30
 Aroma Restaurang,Norra Kyrkogatan 10,11:00—01:00 11:00—00:30
 Backhaus Oceanhamnen,Henckels Torg 4,11:00—02:00 11:00—00:00 11:00—01:00
@@ -67,7 +67,6 @@ Goa Humlan,Malmögatan 2,11:00—01:00 11:00—00:30
 Goa Punkten,Gasverksgatan 35,11:00—03:00 11:00—00:30
 Good Morning + Helsingborg,Gustav Adolfs Gata 47,11:00—01:00 11:00—03:00 11:00—01:00
 Grekiska Kolgrillen,"Väla Restaurangtorget, Marknadsv 9",11:00—01:00
-Grytan Restaurang,Industrigatan 70,11:00—01:00
 Grytan Restaurang - Rya golfklubb,Rya Golfbanevägen 20,10:00—01:00
 Haket Restaurang,Kullagatan 55,11:00—01:00 11:00—00:30
 Hamnkrogen,Hamntorget 2,11:00—02:00 11:00—01:00
