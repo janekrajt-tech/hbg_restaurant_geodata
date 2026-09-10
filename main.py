@@ -13,6 +13,7 @@ def main():
     if errors:
         for error in errors:
             print(f"FEL: {error}")
+        return
     else:
         print("Valideringen lyckades!")
 
