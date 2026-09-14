@@ -3,8 +3,8 @@ import folium
 
 
 
-### Skapar färsta karta centrerad på Helsingborg
-def create_hbg_map(gdf):
+# Skapar färsta karta centrerad på Helsingborg
+def create_hbg_map(gdf, output_path = "data/processed/restaurants_map.html"):
     m = folium.Map(
         location= [56.0465, 12.6945],
         zoom_start=13
@@ -24,9 +24,7 @@ def create_hbg_map(gdf):
         ).add_to(m)
 
 
-    m.save(
-        "data/processed/restaurants_map.html"
-    )
+    m.save(output_path)
 
     print("Kartan har sparats")
 

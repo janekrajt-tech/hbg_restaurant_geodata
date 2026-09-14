@@ -14,7 +14,7 @@ def geocode_all():
         format="%(asctime)s - %(levelname)s - %(message)s"
         )
 
-# Läs in restaurangdata"
+# Läs in restaurangdata
     if os.path.exists("data/processed/restaurants_geocoded.csv"):
         df = pd.read_csv("data/processed/restaurants_geocoded.csv")
     else:
