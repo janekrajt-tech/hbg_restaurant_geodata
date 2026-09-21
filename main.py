@@ -7,7 +7,7 @@ from src.create_hbg_map import create_hbg_map
 from src.density_map import density_map
 def main():
     df = load_data()
-    df = geocode_all()
+    df = geocode_all(df)
     errors = validate_restaurants_geocoded(df)
 
     if errors:
