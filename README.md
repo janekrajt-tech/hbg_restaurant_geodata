@@ -47,7 +47,6 @@ För att undersöka hur restaurangerna är geografiskt fördelade delas området
 ### 6 Tekniska val
 
 ## Varför EPSG:3006?
-EPSG:3006 används eftersom koordinaterna då anges i meter. Det gör det möjligt att skapa ett rutnät där varje ruta är 500 × 500 meter.
 Restaurangernas ursprungliga koordinater anges i EPSG:4326, där positionerna representeras med latitud och longitud. För den spatiala analysen används istället EPSG:3006 eftersom koordinaterna då anges i meter. Det gör det möjligt att skapa ett rutnät med en bestämd fysisk storlek, exempelvis 500 × 500 meter.
 
 ## Varför 500 × 500 meter?
