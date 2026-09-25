@@ -44,7 +44,7 @@ Med GeoPandas omvandlas restaurangdatan till en GeoDataFrame. Varje restaurang r
 
 För att undersöka hur restaurangerna är geografiskt fördelade delas området in i rutor på 500 × 500 meter. Med hjälp av en spatial join räknas antalet restauranger i varje ruta. Detta används för att identifiera områden där restaurangerna är mer eller mindre koncentrerade.
 
-### 6 Tekniska val
+### 6. Tekniska val
 
 ## Varför EPSG:3006?
 Restaurangernas ursprungliga koordinater anges i EPSG:4326, där positionerna representeras med latitud och longitud. För den spatiala analysen används istället EPSG:3006 eftersom koordinaterna då anges i meter. Det gör det möjligt att skapa ett rutnät med en bestämd fysisk storlek, exempelvis 500 × 500 meter.
